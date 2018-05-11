@@ -96,7 +96,8 @@
     "widget.shadow": "#282c35",
     "pickerGroup.foreground": "#5281ff",
     "pickerGroup.border": "#3064f4",
-    "focusBorder": "#343d64"
+    "focusBorder": "#343d64",
+    "progressBar.background": "#3064f4"
   },
   "tokenColors": []
 }
