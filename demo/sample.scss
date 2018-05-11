@@ -1,8 +1,18 @@
-$color-primary-0: #2962FF; // Main Primary color */
-$color-primary-1: #7C9FFE;
-$color-primary-2: #5281FF;
-$color-primary-3: #0E4FFF;
-$color-primary-4: #013AD5;
+$color-primary-0: #2962ff; // Main Primary color */
+$color-primary-1: #7c9ffe;
+$color-primary-2: #5281ff;
+$color-primary-3: #0e4fff;
+$color-primary-4: #013ad5;
+$color-primary-5: #3064f4;
+$color-primary-6: #0e4dfa;
+$color-primary-7: #012ca0;
+$color-primary-8: #01227d;
+$color-primary-9: #0638c1;
+$color-primary-10: #032b99;
+$color-primary-11: #011a60;
+$color-primary-12: #00113d;
+$color-primary-13: #343d64;
+
 body {
   font-family: arial;
 }
@@ -10,19 +20,19 @@ body {
 h1,
 p,
 table {
-  background-color: #CCC;
+  background-color: #ccc;
   border: 1px solid;
-  color: #39F;
+  color: #39f;
   text-align: center;
   width: 100%;
 }
 
 .addon-store .pagehead h1 {
-  display: inline-block
+  display: inline-block;
 }
 
 .addon-store .addon-summary:after {
-  clear: both
+  clear: both;
 }
 
 #addon-store .pagehead .electrocat-small {
