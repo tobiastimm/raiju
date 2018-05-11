@@ -1,0 +1,38 @@
+{
+    "name": "raiju",
+    "displayName": "Raijū",
+    "description": "Raijū VS Code theme inspired by Ariake Dark and Subliminal",
+    "license": "MIT",
+    "version": "1.0.0",
+    "publisher": "TobiasTimm",
+    "preview": true,
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "keywords": [
+        "theme",
+        "blue",
+        "white",
+        "dark",
+        "ariake",
+        "wolf",
+        "legendary"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TobiasTimm/raiju.git"
+    },
+    "bugs": {
+        "url": "https://github.com/TobiasTimm/raiju/issues"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [{
+            "label": "Raijū",
+            "uiTheme": "vs-dark",
+            "path": "./themes/raiju.json"
+        }]
+    }
+}
