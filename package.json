@@ -1,31 +1,38 @@
 {
-  "name": "raiju",
-  "displayName": "Raijū",
-  "description":
-    "Raijū is a vscode theme inspired by Ariake Dark and Subliminal",
-  "license": "MIT",
-  "version": "1.0.0",
-  "publisher": "TobiasTimm",
-  "preview": true,
-  "engines": {
-    "vscode": "^1.22.0"
-  },
-  "keywords": ["theme", "blue", "subliminal", "dark", "ariake"],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TobiasTimm/raiju.git"
-  },
-  "bugs": {
-    "url": "https://github.com/TobiasTimm/raiju/issues"
-  },
-  "categories": ["Themes"],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Raijū",
-        "uiTheme": "vs-dark",
-        "path": "./themes/raiju.json"
-      }
-    ]
-  }
+    "name": "raiju",
+    "displayName": "Raijū",
+    "description": "Raijū is a vscode theme inspired by Ariake Dark and Subliminal",
+    "license": "MIT",
+    "version": "1.1.0",
+    "publisher": "TobiasTimm",
+    "preview": true,
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "keywords": [
+        "theme",
+        "blue",
+        "subliminal",
+        "dark",
+        "ariake"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TobiasTimm/raiju.git"
+    },
+    "bugs": {
+        "url": "https://github.com/TobiasTimm/raiju/issues"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Raijū",
+                "uiTheme": "vs-dark",
+                "path": "./themes/raiju.json"
+            }
+        ]
+    }
 }
