@@ -3,9 +3,9 @@
 [![Version](https://vsmarketplacebadge.apphb.com/version/TobiasTimm.raiju.svg)](https://marketplace.visualstudio.com/items?itemName=TobiasTimm.raiju)
 [![Downloads](https://img.shields.io/vscode-marketplace/d/TobiasTimm.raiju.svg)](https://marketplace.visualstudio.com/items?itemName=TobiasTimm.raiju)
 
-**Raijū** is a VS Code theme inspired by [Ariake Dark](https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark) and [Subliminal](https://marketplace.visualstudio.com/items?itemName=gaearon.subliminal).
+**Raijū** is a vscode theme inspired by [Ariake Dark](https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark) and [Subliminal](https://marketplace.visualstudio.com/items?itemName=gaearon.subliminal).
 
-**Note: Only JavaScript, TypeScript and HTML is supported at the moment. Pull requests for additional languages are welcome.**
+**Note: Pull requests for additional languages are welcome.**
 
 ![Screenshot](screenshot.png)
 

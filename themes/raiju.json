@@ -7,7 +7,6 @@
     "activityBar.background": "#1c1f26",
     "activityBar.foreground": "#D7DAE0",
     "activityBarBadge.background": "#5681f4",
-    // "activityBarBadge.background": "#2962ff",
     "activityBarBadge.foreground": "#F8FAFD",
     "badge.background": "#282c34",
     "button.background": "#404754",
@@ -22,7 +21,6 @@
     "editor.selectionHighlightBackground": "#ffffff10",
     "editorCursor.background": "#ffffffc9",
     "editor.findMatchHighlightBackground": "#314365",
-    // "editor.wordHighlightBackground": "#484e5b",
     "editor.wordHighlightBackground": "#314365",
     "editor.wordHighlightStrongBackground": "#abb2bf26",
     "editorGroup.background": "#181A1F",
@@ -42,7 +40,7 @@
     "gitDecoration.conflictingResourceForeground": "#E15A60",
     "input.background": "#1c1f26",
     "input.border": "#343d64",
-    "list.highlightForeground": "#5681f4",
+    "list.highlightForeground": "#7c9ffe",
     "peekViewEditor.matchHighlightBackground": "#29244b",
     "sideBarSectionHeader.background": "#1c1f26",
     "statusBar.background": "#1c1f26",
@@ -202,6 +200,156 @@
       ],
       "settings": {
         "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "name": "JSON",
+      "scope": ["string.quoted.double.json"],
+      "settings": {
+        "foreground": "#99a7e2"
+      }
+    },
+    {
+      "name": "CSS/SCSS/Styl - Operator",
+      "scope": [
+        "source.css keyword.operator",
+        "source.scss keyword.operator.",
+        "source.stylus keyword.operator."
+      ],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "CSS/SCSS/Styl - Classes",
+      "scope": [
+        "source.css entity.other.attribute-name.class",
+        "source.scss entity.other.attribute-name.class",
+        "source.stylus entity.other.attribute-name.class"
+      ],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "CSS/SCSS/Styl - Id",
+      "scope": [
+        "source.css entity.other.attribute-name.id",
+        "source.scss entity.other.attribute-name.id",
+        "source.stylus entity.other.attribute-name.id"
+      ],
+      "settings": {
+        "foreground": "#c9ccd8",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "CSS/SCSS/Styl - Pseudo",
+      "scope": [
+        "source.css entity.other.attribute-name.pseudo-element",
+        "source.scss entity.other.attribute-name.pseudo-element",
+        "source.stylus entity.other.attribute-name.pseudo-element"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "CSS/SCSS/Styl - keyword",
+      "scope": [
+        "keyword.control.at-rule",
+        "keyword.control.at-rule.mixin.scss",
+        "keyword.control.at-rule.import.scss",
+        "keyword.control.at-rule.include.scss",
+        "keyword.control.at-rule.extend.scss",
+        "keyword.control.at-rule.extend.scss",
+        "keyword.control.if.scss",
+        "keyword.control.else.scss",
+        "punctuation.definition.keyword.stylus",
+        "keyword.control.stylus"
+      ],
+      "settings": {
+        "foreground": "#8d9ad1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "SCSS/Styl - Functions",
+      "scope": [
+        "source.css.scss entity.name.function",
+        "source.css.stylus entity.name.function",
+        "source.stylus entity.name.function.stylus"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "INI - Group",
+      "scope": ["entity.name.section.group-title.ini"],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "INI - Operator",
+      "scope": ["punctuation.separator.key-value.ini"],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "INI - Definition",
+      "scope": ["keyword.other.definition.ini"],
+      "settings": {
+        "foreground": "#8d9ad1"
+      }
+    },
+    {
+      "name": "INI - Comment",
+      "scope": ["comment.line.number-sign.ini"],
+      "settings": {
+        "foreground": "#6F7899",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown - Heading",
+      "scope": ["markup.heading.markdown"],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Markdown - Quote",
+      "scope": ["markup.quote.markdown"],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "name": "Markdown - Comment",
+      "scope": ["text.html.markdown comment.block.html"],
+      "settings": {
+        "foreground": "#6F7899",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown - Link",
+      "scope": [
+        "text.html.markdown meta.link.inline.markdown",
+        "text.html.markdown meta.image.inline.markdown",
+        "text.html.markdown markup.inline.raw.string.markdown"
+      ],
+      "settings": {
+        "foreground": "#ceb3f7"
       }
     },
     {

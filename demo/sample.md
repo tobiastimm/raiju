@@ -2,6 +2,8 @@
 
 > Raijū theme for VS Code.
 
+<!-- Comment -->
+
 ![Preview](images/preview.gif)
 
 # Installation
@@ -13,3 +15,9 @@
 5.  Click **Install** to install it
 6.  Click **Reload** to reload the Code
 7.  File > Preferences > Color Theme > **Raijū**
+
+```js
+function test() {
+  console.log("test");
+}
+```
