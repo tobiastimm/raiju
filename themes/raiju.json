@@ -582,6 +582,7 @@
         "storage.type.class",
         "modifier",
         "keyword.control.flow",
+        "keyword.control.default",
         "this"
       ],
       "settings": {
@@ -598,8 +599,11 @@
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
         "source.js meta.group.braces.curly.js keyword.other.substitution",
-        "keyword.operator",
-        "keyword.operator.type"
+        "keyword.operator.type.annotation",
+        "keyword.operator.type",
+        "keyword.operator.logical",
+        "variable.object.property.ts",
+        "variable.object.property.tsx"
       ],
       "settings": {
         "fontStyle": "normal"

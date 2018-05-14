@@ -5,7 +5,7 @@
     "license": "MIT",
     "version": "1.1.0",
     "publisher": "TobiasTimm",
-    "preview": true,
+    "preview": false,
     "engines": {
         "vscode": "^1.22.0"
     },
@@ -27,12 +27,10 @@
         "Themes"
     ],
     "contributes": {
-        "themes": [
-            {
-                "label": "Raijū",
-                "uiTheme": "vs-dark",
-                "path": "./themes/raiju.json"
-            }
-        ]
+        "themes": [{
+            "label": "Raijū",
+            "uiTheme": "vs-dark",
+            "path": "./themes/raiju.json"
+        }]
     }
 }

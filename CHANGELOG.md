@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.1.1
+
+* Fix for some italic styles in .js / .ts
+
 ## 1.1.0
 
 * Changed `list.highlightForeground` color
