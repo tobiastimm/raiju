@@ -17,8 +17,12 @@ const test = 22;
 class Test {
   constructor() {}
 
-  method() {}
+  method() {
+    console.log("test");
+  }
 }
+
+const bla = new Test();
 
 ("use strict");
 

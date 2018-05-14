@@ -122,6 +122,16 @@
       }
     },
     {
+      "name": "PHP Block",
+      "scope": [
+        "punctuation.section.embedded.begin.php",
+        "punctuation.section.embedded.end.php"
+      ],
+      "settings": {
+        "foreground": "#c9ccd8"
+      }
+    },
+    {
       "name": "Keyword - JavaScript",
       "scope": [
         "source.js keyword",
@@ -173,9 +183,31 @@
       }
     },
     {
+      "name": "Keyword - PHP",
+      "scope": [
+        "source.php keyword",
+        "storage.type.php",
+        "storage.type.function.php",
+        "storage.type.extends.php",
+        "storage.type.class.php",
+        "storage.modifier.php",
+        "storage.modifier.extends.php",
+        "source.php meta.group.braces.curly.php keyword.other.substitution",
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#8d9ad1",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Function Call - JavaScript",
       "scope": [
+        "support.function.js",
+        "support.function.console.js",
+        "support.function.promise.js",
         "variable.function.js",
+        "meta.method-call.static.js entity.name.function.js",
         "meta.class meta.group.braces.curly meta.function-call variable.function.js",
         "variable.function.constructor.js",
         "keyword.operator.arithmetic.js"
@@ -188,15 +220,41 @@
       "name": "Function Call - TypeScript",
       "scope": [
         "support.function.ts",
+        "support.function.console.ts",
         "support.function.tsx",
+        "support.function.console.tsx",
+        "support.function.promise.ts",
+        "support.function.promise.tsx",
         "meta.function-call.ts entity.name.function.ts",
         "meta.function-call.tsx entity.name.function.tsx",
+        "meta.method-call.static.ts entity.name.function.ts",
+        "meta.method-call.static.tsx entity.name.function.tsx",
         "meta.class meta.group.braces.curly meta.function-call variable.function.ts",
         "meta.class meta.group.braces.curly meta.function-call variable.function.tsx",
         "variable.function.constructor.ts",
         "variable.function.constructor.tsx",
         "constant.language.import-export-all.ts",
-        "constant.language.import-export-all.tsx"
+        "constant.language.import-export-all.tsx",
+        "meta.var.expr.ts new.expr.ts entity.name.type.ts",
+        "meta.var.expr.tsx new.expr.tsx entity.name.type.tsx"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "name": "Function Call - PHP",
+      "scope": [
+        "support.function.php",
+        "variable.function.php",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.php",
+        "variable.function.constructor.php",
+        "meta.method-call.php entity.name.function.php",
+        "meta.method-call.static.php entity.name.function.php",
+        "keyword.operator.arithmetic.php",
+        "support.function.construct.output.php",
+        "support.class.php",
+        "meta.function-call.php support.function.construct.php"
       ],
       "settings": {
         "foreground": "#d7e2ff"
@@ -384,6 +442,20 @@
       }
     },
     {
+      "name": "Function/Class Name - PHP",
+      "scope": [
+        "entity.name.function.php",
+        "meta.class.php entity.name.type.class",
+        "meta.class meta.function-call variable.function.php",
+        "source.php keyword.control.loop.php",
+        "storage.type.function.arrow.php",
+        "support.function.magic.php"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
       "name": "Control Flow - JavaScript",
       "scope": [
         "keyword.control.flow.js",
@@ -414,6 +486,18 @@
       }
     },
     {
+      "name": "Control Flow - php",
+      "scope": [
+        "keyword.control.flow.php",
+        "keyword.control.trycatch.php",
+        "source.php meta.group.braces.curly.php keyword.control.loop.php",
+        "keyword.control.switch.php"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
       "name": "Assignment",
       "scope": "keyword.operator.assignment",
       "settings": {
@@ -430,6 +514,13 @@
     {
       "name": "Logic - TypeScript",
       "scope": ["keyword.operator.logical.ts", "keyword.operator.logical.tsx"],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Logic - PHP",
+      "scope": ["keyword.operator.logical.php", "keyword.operator.string.php"],
       "settings": {
         "foreground": "#ffedcb"
       }
@@ -579,11 +670,15 @@
         "type .function",
         "type.function",
         "storage.modifier.js",
+        "storage.modifier.ts",
+        "storage.modifier.tsx",
+        "storage.modifier.php",
         "storage.type.class",
         "modifier",
         "keyword.control.flow",
         "keyword.control.default",
-        "this"
+        "this",
+        "variable.language.this.php"
       ],
       "settings": {
         "fontStyle": "italic"

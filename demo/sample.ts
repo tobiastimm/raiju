@@ -1,5 +1,7 @@
-import * as vscode from 'vscode';
-import { CanIUse } from './can-i-use';
+import * as vscode from "vscode";
+import { CanIUse } from "./can-i-use";
+
+const test = require("test");
 
 interface Sample {
   type: string | undefined;
@@ -12,8 +14,19 @@ type SampleType = {
   myType: string;
 };
 
+class Test {
+  private test;
+
+  public printTest() {
+    console.log("test");
+    console.dir("asdf");
+  }
+}
+
+const bla = new Test();
+
 export function activate(context: vscode.ExtensionContext) {
-  var disposable = vscode.commands.registerCommand('extension.canIUse', () => {
+  var disposable = vscode.commands.registerCommand("extension.canIUse", () => {
     let caniuse = new CanIUse();
 
     const editor = vscode.window.activeTextEditor;
@@ -25,7 +38,10 @@ export function activate(context: vscode.ExtensionContext) {
     if (expandedSelection) {
       var word = editor.document.getText(expandedSelection);
       if (word) {
-        caniuse.retrieveInformation(caniuse.getNormalizedRule(word).toLowerCase(), showOutput);
+        caniuse.retrieveInformation(
+          caniuse.getNormalizedRule(word).toLowerCase(),
+          showOutput
+        );
       }
     }
   });
@@ -34,9 +50,9 @@ export function activate(context: vscode.ExtensionContext) {
 }
 
 (function(angular) {
-  'use strict';
+  "use strict";
 
-  angular.module('chrome').factory('historyService', historyService);
+  angular.module("chrome").factory("historyService", historyService);
 
   function historyService($q, sharedService) {
     return {
@@ -75,10 +91,10 @@ export function activate(context: vscode.ExtensionContext) {
 })(angular);
 
 const options = {
-  method: 'GET',
-  uri: 'https://api.github.com/com/search/repositores',
+  method: "GET",
+  uri: "https://api.github.com/com/search/repositores",
   headers: {
-    'User-Agent': 'gittr-cli'
+    "User-Agent": "gittr-cli"
   },
-  qs: { q: `language:${argv.lang}`, sort: 'stars' }
+  qs: { q: `language:${argv.lang}`, sort: "stars" }
 };
