@@ -246,11 +246,13 @@
       "name": "Function Call - PHP",
       "scope": [
         "support.function.php",
+        "support.function.basic_functions.php",
         "variable.function.php",
         "meta.class meta.group.braces.curly meta.function-call variable.function.php",
         "variable.function.constructor.php",
         "meta.method-call.php entity.name.function.php",
         "meta.method-call.static.php entity.name.function.php",
+        "meta.function-call.php entity.name.function.php",
         "keyword.operator.arithmetic.php",
         "support.function.construct.output.php",
         "support.class.php",
@@ -520,7 +522,11 @@
     },
     {
       "name": "Logic - PHP",
-      "scope": ["keyword.operator.logical.php", "keyword.operator.string.php"],
+      "scope": [
+        "keyword.operator.logical.php",
+        "keyword.operator.string.php",
+        "keyword.operator.class.php"
+      ],
       "settings": {
         "foreground": "#ffedcb"
       }
@@ -698,7 +704,9 @@
         "keyword.operator.type",
         "keyword.operator.logical",
         "variable.object.property.ts",
-        "variable.object.property.tsx"
+        "variable.object.property.tsx",
+        "keyword.operator.class.php",
+        "support.function.basic_functions.php"
       ],
       "settings": {
         "fontStyle": "normal"
