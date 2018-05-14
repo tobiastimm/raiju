@@ -122,6 +122,13 @@
       }
     },
     {
+      "name": "PHP Typedef",
+      "scope": ["meta.function.parameter.typehinted.php storage.type.php"],
+      "settings": {
+        "foreground": "#c9ccd8"
+      }
+    },
+    {
       "name": "PHP Block",
       "scope": [
         "punctuation.section.embedded.begin.php",
@@ -697,6 +704,7 @@
         "meta.interface.tsx variable.object.property",
         "meta.type.declaration.ts variable.object.property",
         "meta.type.declaration.tsx variable.object.property",
+        "meta.function.parameter.typehinted.php storage.type.php",
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
         "source.js meta.group.braces.curly.js keyword.other.substitution",
