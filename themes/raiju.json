@@ -199,6 +199,7 @@
         "storage.type.class.php",
         "storage.modifier.php",
         "storage.modifier.extends.php",
+        "storage.modifier.implements.php",
         "source.php meta.group.braces.curly.php keyword.other.substitution",
         "keyword.operator"
       ],
@@ -252,8 +253,7 @@
     {
       "name": "Function Call - PHP",
       "scope": [
-        "support.function.php",
-        "support.function.basic_functions.php",
+        "source.php support.function",
         "variable.function.php",
         "meta.class meta.group.braces.curly meta.function-call variable.function.php",
         "variable.function.constructor.php",
@@ -530,9 +530,8 @@
     {
       "name": "Logic - PHP",
       "scope": [
-        "keyword.operator.logical.php",
-        "keyword.operator.string.php",
-        "keyword.operator.class.php"
+        "source.php keyword.operator",
+        "punctuation.separator.inheritance.php"
       ],
       "settings": {
         "foreground": "#ffedcb"
