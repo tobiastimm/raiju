@@ -3,13 +3,30 @@
 [![Version](https://vsmarketplacebadge.apphb.com/version/TobiasTimm.raiju.svg)](https://marketplace.visualstudio.com/items?itemName=TobiasTimm.raiju)
 [![Downloads](https://img.shields.io/vscode-marketplace/d/TobiasTimm.raiju.svg)](https://marketplace.visualstudio.com/items?itemName=TobiasTimm.raiju)
 
-**Raijū** is a vscode theme inspired by [Ariake Dark](https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark) and [Subliminal](https://marketplace.visualstudio.com/items?itemName=gaearon.subliminal).
+**Raijū** is a Visual Studio Code theme inspired by [Ariake Dark](https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark) and [Subliminal](https://marketplace.visualstudio.com/items?itemName=gaearon.subliminal).
 
-**Note: Pull requests for additional languages are welcome.**
+See the [CHANGELOG](CHANGELOG.md) for the latest changes.
 
 ![Screenshot](screenshot.png)
 
 _Icon theme: [ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), Font: [Dank Mono](https://dank.sh)_
+
+## Usage
+
+Select the theme and you are ready to go!
+
+## Installation
+
+1.  Open Extensions sidebar panel in VS Code. View → Extensions
+1.  Search for `Raijū`
+1.  Click Install
+1.  Click Reload
+1.  File > Preferences > Color Theme > Raijū
+1.  Optional: Use the settings below for a better and more minimalistic experience
+
+## Syntax Highlighting
+
+For better Syntax Highlighting use [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode).
 
 ## Minimalistic Look & Feel
 
@@ -37,9 +54,9 @@ For a more minimalistic look I recommend these settings
 }
 ```
 
-Since I have turned off features like the default matching brackets highlighting, I recommend you to install [this extension](https://marketplace.visualstudio.com/items?itemName=rafamel.subtle-brackets).
+Since I have turned off features like the default matching brackets highlighting, I recommend you to install [Subtle Match Brackets](https://marketplace.visualstudio.com/items?itemName=rafamel.subtle-brackets).
 
-To remove the icon buttons on panels you need to install [this extension](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) with the following custom CSS:
+To remove the icon buttons on panels you need to install [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) with the following custom CSS:
 
 ```css
 .title-actions
@@ -74,6 +91,16 @@ To use a special font for the UI you need to add addtional custom css rules
   top: 17px !important;
 }
 ```
+
+## Feedback / Issues
+
+Do you like the theme? Don't hesitate to share your thoughts!
+
+Let me know if you'd like to see any specific synytax added by creating a Github issue.
+
+## Author
+
+[Tobias Timm](https://twitter.com/TbsTimm)
 
 ## License
 
