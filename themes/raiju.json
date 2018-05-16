@@ -211,9 +211,8 @@
     {
       "name": "Function Call - JavaScript",
       "scope": [
+        "source.js support.function",
         "support.function.js",
-        "support.function.console.js",
-        "support.function.promise.js",
         "variable.function.js",
         "meta.method-call.static.js entity.name.function.js",
         "meta.class meta.group.braces.curly meta.function-call variable.function.js",
@@ -227,12 +226,10 @@
     {
       "name": "Function Call - TypeScript",
       "scope": [
+        "source.ts support.function",
+        "source.tsx support.function",
         "support.function.ts",
-        "support.function.console.ts",
         "support.function.tsx",
-        "support.function.console.tsx",
-        "support.function.promise.ts",
-        "support.function.promise.tsx",
         "meta.function-call.ts entity.name.function.ts",
         "meta.function-call.tsx entity.name.function.tsx",
         "meta.method-call.static.ts entity.name.function.ts",
@@ -710,6 +707,7 @@
         "keyword.operator.type.annotation",
         "keyword.operator.type",
         "keyword.operator.logical",
+        "source.php keyword.operator",
         "variable.object.property.ts",
         "variable.object.property.tsx",
         "keyword.operator.class.php",
