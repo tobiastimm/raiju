@@ -11,6 +11,7 @@ export class Test extends React.Component<{bar: string}, {}>{
 import * as styles from './mission.scss';
 
 export default function MissionIcon({ key, title }) {
+
   return <i class={classnames(
     styles['mission__icon'],
     {

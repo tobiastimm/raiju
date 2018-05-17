@@ -101,7 +101,10 @@
     },
     {
       "name": "Flow Typedef",
-      "scope": ["meta.type.flowtype.js variable.other.flowtype.js"],
+      "scope": [
+        "meta.type.flowtype.js variable.other.flowtype.js",
+        "meta.flowtype.polymorph.js variable.other.flowtype.js"
+      ],
       "settings": {
         "foreground": "#c9ccd8",
         "fontStyle": "normal"
@@ -114,6 +117,8 @@
         "entity.name.type.tsx",
         "meta.interface.ts variable.object.property.ts",
         "meta.interface.tsx variable.object.property.tsx",
+        "meta.definition.property.ts variable.object.property.ts",
+        "meta.definition.property.tsx variable.object.property.tsx",
         "meta.type.declaration.ts variable.object.property.ts",
         "meta.type.declaration.tsx variable.object.property.tsx"
       ],
@@ -711,7 +716,8 @@
         "variable.object.property.ts",
         "variable.object.property.tsx",
         "keyword.operator.class.php",
-        "support.function.basic_functions.php"
+        "support.function.basic_functions.php",
+        "keyword.operator.flowtype.other.js"
       ],
       "settings": {
         "fontStyle": "normal"
