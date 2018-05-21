@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.3.0
+
+* Github Pages https://tobiastimm.github.io/raiju/ (#4)
+* Support for Shell Scripts (#3)
+* Support for Dockerfile (#8)
+
 ## 1.2.0
 
 * Support for PHP (#1)
