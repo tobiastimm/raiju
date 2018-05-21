@@ -222,6 +222,21 @@
       }
     },
     {
+      "name": "Keyword - Shell Script",
+      "scope": ["source.shell keyword"],
+      "settings": {
+        "foreground": "#8d9ad1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Var definition - Shell Script",
+      "scope": ["source.shell punctuation.definition.variable.shell"],
+      "settings": {
+        "foreground": "#8d9ad1"
+      }
+    },
+    {
       "name": "Function Call - JavaScript",
       "scope": [
         "source.js support.function",
@@ -274,6 +289,16 @@
         "support.function.construct.output.php",
         "support.class.php",
         "meta.function-call.php support.function.construct.php"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "name": "Function Call - Shell Script",
+      "scope": [
+        "source.shell support.function",
+        "keyword.operator.arithmetic.shell"
       ],
       "settings": {
         "foreground": "#d7e2ff"
@@ -517,6 +542,28 @@
       }
     },
     {
+      "name": "Control Flow - Shell Script",
+      "scope": [
+        "source.shell meta.scope.while-loop.shell keyword.control.shell",
+        "source.shell meta.scope.for-in-loop.shell keyword.control.shell"
+      ],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Control Flow - Shell Script 2",
+      "scope": [
+        "source.shell meta.scope.while-loop.shell meta.scope.if-block.shell keyword.control.shell",
+        "source.shell meta.scope.for-in-loop.shell meta.scope.if-block.shell keyword.control.shell"
+      ],
+      "settings": {
+        "foreground": "#8d9ad1",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Assignment",
       "scope": "keyword.operator.assignment",
       "settings": {
@@ -545,6 +592,25 @@
       ],
       "settings": {
         "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Logic - Shell",
+      "scope": ["source.shell meta.scope.logical-expression.shell"],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Variables & Braces - Shell",
+      "scope": [
+        "source.shell punctuation.definition.logical-expression.shell",
+        "source.shell variable.other",
+        "source.shell variable.other.normal.shell"
+      ],
+      "settings": {
+        "foreground": "#c9ccd8",
+        "fontStyle": "normal"
       }
     },
     {
@@ -698,6 +764,7 @@
         "storage.type.class",
         "modifier",
         "keyword.control.flow",
+        "source.shell keyword.control.shell",
         "keyword.control.default",
         "this",
         "variable.language.this.php"
@@ -725,7 +792,8 @@
         "variable.object.property.tsx",
         "keyword.operator.class.php",
         "support.function.basic_functions.php",
-        "keyword.operator.flowtype.other.js"
+        "keyword.operator.flowtype.other.js",
+        "source.shell keyword.operator"
       ],
       "settings": {
         "fontStyle": "normal"

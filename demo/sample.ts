@@ -23,6 +23,12 @@ class Test {
   }
 }
 
+for (var i = test; i < 10; i++) {}
+
+while (true) {}
+
+do {} while (true);
+
 const bla = new Test();
 
 export function activate(context: vscode.ExtensionContext) {
