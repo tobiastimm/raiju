@@ -1,7 +1,7 @@
 module.exports = {
-  pathPrefix: '/reponame',
+  pathPrefix: '/raiju',
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Raijū',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 }
