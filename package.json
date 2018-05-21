@@ -18,10 +18,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TobiasTimm/raiju.git"
+        "url": "https://github.com/tobiastimm/raiju.git"
     },
     "bugs": {
-        "url": "https://github.com/TobiasTimm/raiju/issues"
+        "url": "https://github.com/tobiastimm/raiju/issues"
     },
     "categories": [
         "Themes"

@@ -214,6 +214,14 @@
       }
     },
     {
+      "name": "Keyword - Dockerfile",
+      "scope": ["source.dockerfile keyword"],
+      "settings": {
+        "foreground": "#8d9ad1",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Function Call - JavaScript",
       "scope": [
         "source.js support.function",
