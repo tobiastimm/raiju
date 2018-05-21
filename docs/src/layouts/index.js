@@ -9,8 +9,16 @@ const Layout = ({ children, data }) => (
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        {
+          name: 'description',
+          content:
+            'Raijū - A Visual Studio Code theme inspired by Ariake Dark and Subliminal',
+        },
+        {
+          name: 'keywords',
+          content:
+            'vscode, theme, raiju, subliminal, ariake, dark, extension, minimalistic',
+        },
       ]}
     />
     <div>{children()}</div>
