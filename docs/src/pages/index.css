@@ -61,14 +61,14 @@ body a {
 
 .download-image-wrapper {
   display: flex;
-  width: 50%;
-  min-width: 50%;
   padding: 0 40px;
+  flex-shrink: 0.8;
 }
 
 .download-image {
   width: 100%;
   height: 100%;
+  align-self: center;
 }
 
 .install-container {
