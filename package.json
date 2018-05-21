@@ -34,8 +34,5 @@
                 "path": "./themes/raiju.json"
             }
         ]
-    },
-    "devDependencies": {
-        "gh-pages": "^1.1.0"
     }
 }
