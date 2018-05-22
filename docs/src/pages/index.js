@@ -44,8 +44,7 @@ const IndexPage = () => (
               <pre>
                 <code>
                   <span>$ </span>
-                  git clone https://github.com/tobiastimm/raiju.git
-                  ~/.vscode/extensions/raiju
+                  code --install-extension tobiastimm.raiju
                 </code>
               </pre>
             </div>
