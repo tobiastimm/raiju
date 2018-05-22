@@ -1,9 +1,9 @@
 {
     "name": "raiju",
     "displayName": "Raijū",
-    "description": "Raijū is a vscode theme inspired by Ariake Dark and Subliminal",
+    "description": "Raijū is a Visual Studio Code theme inspired by Ariake Dark and Subliminal",
     "license": "MIT",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "publisher": "TobiasTimm",
     "preview": false,
     "engines": {

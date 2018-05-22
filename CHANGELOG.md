@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.4.0
+
+* Java, gradle & XML Support (#6)
+* LESS Support
+* Style improvements in CSS, SCSS and Stylus
+
 ## 1.3.0
 
 * Github Pages https://tobiastimm.github.io/raiju/ (#4)
