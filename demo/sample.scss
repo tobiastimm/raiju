@@ -1,4 +1,10 @@
-@import 'test';
+@import "test";
+
+$body-font: "Helvetica";
+$color-primary-5: #3064f4;
+$color-primary-6: #0e4dfa;
+$color-primary-7: #012ca0;
+
 body {
   font-family: arial;
 }
@@ -6,8 +12,7 @@ body {
 @mixin grid($flex) {
   @if $flex {
     @include flex;
-  }
-  @else {
+  } @else {
     display: block;
   }
 }
@@ -18,9 +23,13 @@ table {
   background-color: #ccc;
   border: 1px solid;
   color: #39f;
-  @import 'test.scss';
+  @import "test.scss";
   text-align: center;
+  font-family: $body-font;
   width: 100%;
+  &:hover {
+    // test
+  }
 }
 
 .addon-store .pagehead h1 {

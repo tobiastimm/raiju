@@ -394,7 +394,7 @@
       "name": "CSS/SCSS/Styl - Id",
       "scope": [
         "source.css entity.other.attribute-name.id",
-        "source.scss entity.other.attribute-name.id",
+        "source.scss entity.other.attribute-name.iccccccccccccccccccccccccccccd",
         "source.stylus entity.other.attribute-name.id"
       ],
       "settings": {
@@ -405,9 +405,14 @@
     {
       "name": "CSS/SCSS/Styl - Pseudo",
       "scope": [
+        "source.css entity.other.attribute-name.pseudo-class.css",
         "source.css entity.other.attribute-name.pseudo-element",
         "source.scss entity.other.attribute-name.pseudo-element",
-        "source.stylus entity.other.attribute-name.pseudo-element"
+        "source.scss entity.other.attribute-name.pseudo-class.css",
+        "source.stylus entity.other.attribute-name.pseudo-class.css",
+        "source.stylus entity.other.attribute-name.pseudo-element",
+        "source.css.less entity.other.attribute-name.pseudo-class.css",
+        "source.css.less entity.other.attribute-name.pseudo-element"
       ],
       "settings": {
         "foreground": "#d7e2ff",
@@ -426,7 +431,9 @@
         "keyword.control.if.scss",
         "keyword.control.else.scss",
         "punctuation.definition.keyword.stylus",
-        "keyword.control.stylus"
+        "keyword.control.stylus",
+        "source.stylus meta.selector.stylus",
+        "source.css.less meta.property-list.css entity.other.attribute-name.parent-selector.css punctuation.definition.entity.css"
       ],
       "settings": {
         "foreground": "#8d9ad1",
@@ -442,6 +449,42 @@
       ],
       "settings": {
         "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "LESS - Keyword",
+      "scope": ["source.css.less keyword.control.logical.operator.less"],
+      "settings": {
+        "foreground": "#8d9ad1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "SCSS/LESS - Function Call",
+      "scope": [
+        "source.css.scss meta.property-list.scss meta.property-value.scss variable.scss",
+        "source.css.less meta.property-list.css variable.other.less",
+        "source.css.less meta.property-list.css entity.other.attribute-name.class.mixin.css"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "name": "CSS/SCSS/LESS/Stylus - Punctuation",
+      "scope": [
+        "source.css entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "source.css.scss entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "source.stylus entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "source.css.less entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "source.css entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+        "source.css.less entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+        "source.scss entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+        "source.stylus entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff",
+        "fontStyle": "normal"
       }
     },
     {
