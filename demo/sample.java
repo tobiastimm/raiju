@@ -3,11 +3,11 @@ import java.util.*;
 
 /** Causes a compilation error due to an unhandled Exception
  */
-public class KeyboardReaderError {
+public abstract class KeyboardReaderError throws Exception {
 
-  public static void main (String[] args) { // throws java.io.IOException
+  public static void main (String[] args, String test, Map<String,String> bla) { // throws java.io.IOException
 
-    String s1;
+    final String s1;
     String s2;
 
     double num1, num2, product;
@@ -15,7 +15,7 @@ public class KeyboardReaderError {
     // set up the buffered reader to read from the keyboard
     BufferedReader br = new BufferedReader (new InputStreamReader (System.in));
 
-    System.out.println ("Enter a line of input");
+    System.out.println("Enter a line of input");
 
     /* Following line triggers the error.  Error will show the type of
        unhandled exception and where the call occurs */
@@ -29,10 +29,18 @@ public class KeyboardReaderError {
     int numTokens = 0;
     StringTokenizer st = new StringTokenizer (s1);
 
+    for(int test = 0; test < 5; test++){
+      // do something
+    }
+
+    do{
+      // do something
+    }while(true);
+
     while (st.hasMoreTokens()) {
-	s2 = st.nextToken();
-	numTokens++;
-	System.out.println ("    Token " + numTokens + " is: " + s2);
+      s2 = st.nextToken();
+      numTokens++;
+      System.out.println ("    Token " + numTokens + " is: " + s2);
     }
   }
 

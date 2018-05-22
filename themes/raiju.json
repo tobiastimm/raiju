@@ -229,6 +229,29 @@
         "fontStyle": "italic"
       }
     },
+
+    {
+      "name": "Keyword - XML",
+      "scope": ["text.xml keyword"],
+      "settings": {
+        "foreground": "#8d9ad1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword - Java",
+      "scope": [
+        "source.java keyword",
+        "storage.modifier.java",
+        "storage.type.java",
+        "storage.type.primitive.java",
+        "storage.type.object.array.java"
+      ],
+      "settings": {
+        "foreground": "#8d9ad1",
+        "fontStyle": "italic"
+      }
+    },
     {
       "name": "Var definition - Shell Script",
       "scope": ["source.shell punctuation.definition.variable.shell"],
@@ -247,6 +270,13 @@
         "variable.function.constructor.js",
         "keyword.operator.arithmetic.js"
       ],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "name": "Constant - Gradle",
+      "scope": "source.groovy constant.other.key.groovy",
       "settings": {
         "foreground": "#d7e2ff"
       }
@@ -299,6 +329,31 @@
       "scope": [
         "source.shell support.function",
         "keyword.operator.arithmetic.shell"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "name": "Variable - XML",
+      "scope": ["text.xml variable.language"],
+      "settings": {
+        "foreground": "#d7e2ff",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Function Call - Java",
+      "scope": [
+        "source.java support.function",
+        "support.function.java",
+        "meta.function-call.java entity.name.function.java",
+        "meta.method-call.static.java entity.name.function.java",
+        "meta.method-call.java entity.name.function.java",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.java",
+        "variable.function.constructor.java",
+        "keyword.operator.arithmetic.java",
+        "storage.modifier.import.java variable.language.wildcard.java"
       ],
       "settings": {
         "foreground": "#d7e2ff"
@@ -500,6 +555,30 @@
       }
     },
     {
+      "name": "Function/Class Name - Java",
+      "scope": [
+        "meta.method.identifier.java entity.name.function.java",
+        "meta.method.identifier.java storage.type.generic.java",
+        "meta.class meta.function-call variable.function.java",
+        "source.java keyword.control.loop.java",
+        "storage.type.function.arrow.java",
+        "meta.class.identifier.java entity.name.type.class.java"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Definition - XML",
+      "scope": [
+        "meta.tag.preprocessor.xml punctuation.definition.tag.xml",
+        "meta.tag.sgml.doctype.xml punctuation.definition.tag.xml"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
       "name": "Control Flow - JavaScript",
       "scope": [
         "keyword.control.flow.js",
@@ -561,6 +640,40 @@
       "settings": {
         "foreground": "#8d9ad1",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Control Flow - Java",
+      "scope": [
+        "keyword.control.flow.java",
+        "keyword.control.trycatch.java",
+        "source.java meta.group.braces.curly.java keyword.control.loop.java",
+        "keyword.control.switch.java"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Control Flow - Java italic",
+      "scope": ["keyword.control.java"],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Operator - XML",
+      "scope": ["meta.tag.preprocessor.xml"],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Operator - XML",
+      "scope": ["meta.tag.preprocessor.xml entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#c9ccd8"
       }
     },
     {

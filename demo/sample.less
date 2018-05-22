@@ -1,0 +1,150 @@
+// Usage
+@import "@{themes}/tidal-wave.less";
+@plugin "my-plugin";
+
+// Variables
+@link-color: #428bca; // sea blue
+@link-color-hover: darken(@link-color, 10%);
+
+// Usage
+a,
+.link {
+  color: @link-color;
+}
+a:hover {
+  color: @link-color-hover;
+}
+.widget {
+  color: #fff;
+  background: @link-color;
+}
+
+// Variables
+@my-selector: banner;
+
+// Usage
+.@{my-selector} {
+  font-weight: bold;
+  line-height: 40px;
+  margin: 0 auto;
+}
+
+// Variables
+@images: "../img";
+
+// Usage
+body {
+  color: #444;
+  background: url("@{images}/white-sand.png");
+}
+
+@property: color;
+
+.widget {
+  @{property}: #0ee;
+  background-@{property}: #999;
+}
+
+@primary: green;
+@secondary: blue;
+
+.section {
+  @color: primary;
+
+  .element {
+    color: @@color;
+  }
+}
+
+a {
+  color: blue;
+  &:hover {
+    color: green;
+  }
+}
+
+.button {
+  &-ok {
+    background-image: url("ok.png");
+  }
+  &-cancel {
+    background-image: url("cancel.png");
+  }
+
+  &-custom {
+    background-image: url("custom.png");
+  }
+}
+
+.link {
+  & + & {
+    color: red;
+  }
+
+  & & {
+    color: green;
+  }
+
+  && {
+    color: blue;
+  }
+
+  &,
+  &ish {
+    color: cyan;
+  }
+}
+
+.grand {
+  .parent {
+    & > & {
+      color: red;
+    }
+
+    & & {
+      color: green;
+    }
+
+    && {
+      color: blue;
+    }
+
+    &,
+    &ish {
+      color: cyan;
+    }
+  }
+}
+
+.a:extend(.b) {
+}
+
+// the above block does the same thing as the below block
+.a {
+  &:extend(.b);
+}
+
+.mixin() {
+  box-shadow+: inset 0 0 10px #555;
+}
+.myclass {
+  .mixin();
+  box-shadow+: 0 0 20px black;
+}
+
+.my-optional-style() when (@my-option = true) {
+  button {
+    color: white;
+  }
+}
+.my-optional-style();
+
+// declare detached ruleset
+@detached-ruleset: {
+  background: red;
+};
+
+// use detached ruleset
+.top {
+  @detached-ruleset();
+}
