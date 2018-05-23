@@ -22,6 +22,8 @@ class Test {
   }
 }
 
+const bla = true === 'bla' ? 'blub' : 'foo';
+
 for (var i = test; i < 10; i++) {}
 
 while (true) {}

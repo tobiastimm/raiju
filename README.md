@@ -3,7 +3,7 @@
 [![Version](https://vsmarketplacebadge.apphb.com/version/TobiasTimm.raiju.svg)](https://marketplace.visualstudio.com/items?itemName=TobiasTimm.raiju)
 [![Downloads](https://img.shields.io/vscode-marketplace/d/TobiasTimm.raiju.svg)](https://marketplace.visualstudio.com/items?itemName=TobiasTimm.raiju)
 
-**Raijū** is a Visual Studio Code theme inspired by [Ariake Dark](https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark) and [Subliminal](https://marketplace.visualstudio.com/items?itemName=gaearon.subliminal).
+[**Raijū**](https://tobiastimm.github.io/raiju/) is a Visual Studio Code theme inspired by [Ariake Dark](https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark) and [Subliminal](https://marketplace.visualstudio.com/items?itemName=gaearon.subliminal).
 
 See the [CHANGELOG](CHANGELOG.md) for the latest changes.
 
@@ -30,7 +30,7 @@ For better Syntax Highlighting use [Sublime Babel](https://marketplace.visualstu
 
 ## Minimalistic Look & Feel
 
-For a more minimalistic look I recommend these settings
+I personally prefer a more minimalistic look. My settings are
 
 ```js
 {
@@ -51,6 +51,7 @@ For a more minimalistic look I recommend these settings
     "workbench.iconTheme": "ayu",
     "workbench.editor.showIcons": false,
     "workbench.statusBar.visible": false,
+    "workbench.editor.tabCloseButton": "off"
 }
 ```
 
@@ -74,6 +75,8 @@ To remove the icon buttons on panels you need to install [Custom CSS and JS Load
 
 You can remove the warning from the title bar with [this extension](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-no-unsupported).
 
+#### Custom font
+
 To use a special font for the UI you need to add addtional custom css rules
 
 ```css
@@ -96,7 +99,7 @@ To use a special font for the UI you need to add addtional custom css rules
 
 Do you like the theme? Don't hesitate to share your thoughts!
 
-Let me know if you'd like to see any specific synytax added by creating a Github issue.
+Let me know, if you'd like to see any specific synytax added by creating a [Github issue](https://github.com/tobiastimm/raiju/issues).
 
 ## Author
 

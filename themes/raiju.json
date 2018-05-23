@@ -949,7 +949,10 @@
         "keyword.operator.class.php",
         "support.function.basic_functions.php",
         "keyword.operator.flowtype.other.js",
-        "source.shell keyword.operator"
+        "source.shell keyword.operator",
+        "keyword.operator.ternary.js",
+        "keyword.operator.ternary.ts",
+        "keyword.operator.ternary.tsx"
       ],
       "settings": {
         "fontStyle": "normal"

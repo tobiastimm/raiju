@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.4.1
+
+* Remove italic ternary operator in JavaScript and TypeScript
+
 ## 1.4.0
 
 * Java, gradle & XML Support (#6)
