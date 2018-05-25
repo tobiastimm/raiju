@@ -161,3 +161,34 @@ pre code {
 .footer a {
   color: #6f7899;
 }
+
+@media only screen and (max-width: 600px) {
+  .title-container {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .download-container {
+    flex-flow: row wrap;
+  }
+
+  .download-image-wrapper {
+    padding: 0px 40px;
+  }
+
+  .download-image-wrapper img {
+    padding: 20px;
+  }
+
+  .install-container {
+    padding: 40px 40px;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1060px) {
+  .code {
+    width: 90%;
+  }
+}

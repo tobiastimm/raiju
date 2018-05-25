@@ -203,6 +203,7 @@
         "storage.type.extends.php",
         "storage.type.class.php",
         "storage.modifier.php",
+        "source.php storage.modifier",
         "storage.modifier.extends.php",
         "storage.modifier.implements.php",
         "source.php meta.group.braces.curly.php keyword.other.substitution",
