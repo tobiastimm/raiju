@@ -22,6 +22,7 @@ class Test {
     console.dir("asdf");
   }
 }
+const reg = /\.(js|ts|mjs)$/;
 
 for (var i = test; i < 10; i++) {}
 
@@ -29,7 +30,7 @@ while (true) {}
 
 do {} while (true);
 
-const bla = true === 'bla' ? 'blub' : 'foo';
+const bla = true === "bla" ? "blub" : "foo";
 
 const bla = new Test();
 

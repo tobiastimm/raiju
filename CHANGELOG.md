@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.4.2
+
+* Removed italic styles for regexp operators in JavaScript and TypeScript
+* Added correct styling for missing TypeScript modifiers
+
 ## 1.4.1
 
 * Remove italic ternary operator in JavaScript and TypeScript

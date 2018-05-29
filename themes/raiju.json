@@ -155,6 +155,7 @@
         "storage.type.extends.js",
         "storage.type.function.js",
         "storage.type.class.js",
+        "string.regexp.js keyword",
         "source.js meta.group.braces.curly.js keyword.other.substitution",
         "keyword.operator"
       ],
@@ -168,6 +169,8 @@
       "scope": [
         "source.ts keyword",
         "source.tsx keyword",
+        "source.ts storage.modifier",
+        "source.tsx storage.modifer",
         "storage.type.ts",
         "storage.type.tsx",
         "storage.type.function.ts",
@@ -182,6 +185,8 @@
         "storage.type.class.tsx",
         "storage.modifier.ts",
         "storage.modifier.tsx",
+        "string.regexp.ts keyword",
+        "string.regexp.tsx keyword",
         "constant.language.import-export-all.ts",
         "constant.language.import-export-all.tsx",
         "variable.object.property.ts",
@@ -822,6 +827,7 @@
       ],
       "settings": {
         "foreground": "#cbb1f3"
+        // "foreground": "#a5bdfe"
       }
     },
     {
@@ -953,7 +959,13 @@
         "source.shell keyword.operator",
         "keyword.operator.ternary.js",
         "keyword.operator.ternary.ts",
-        "keyword.operator.ternary.tsx"
+        "keyword.operator.ternary.tsx",
+        "source.js meta.group.regexp keyword.operator",
+        "source.ts meta.group.regexp keyword.operator",
+        "source.tsx meta.group.regexp keyword.operator",
+        "string.regexp.js keyword.control.anchor.regexp",
+        "string.regexp.ts keyword.control.anchor.regexp",
+        "string.regexp.tsx keyword.control.anchor.regexp"
       ],
       "settings": {
         "fontStyle": "normal"

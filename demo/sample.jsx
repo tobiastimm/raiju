@@ -8,9 +8,15 @@ export class Test extends React.Component<{bar: string}, {}>{
   }
 }
 
+const reg = /\.(js|ts|mjs)$/;
+
 import * as styles from './mission.scss';
 
 export default function MissionIcon({ key, title }) {
+
+  const string = 'string';
+  const number = 20;
+  const blue = true;
 
   return <i class={classnames(
     styles['mission__icon'],
