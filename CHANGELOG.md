@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.5.0
+
+* Experimental color theme variant `Slime`
+
 ## 1.4.2
 
 * Removed italic styles for regexp operators in JavaScript and TypeScript
