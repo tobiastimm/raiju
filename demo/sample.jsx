@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+// this is a comment
+
 export class Test extends React.Component<{bar: string}, {}>{
   render(){
     return (
