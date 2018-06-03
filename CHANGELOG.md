@@ -1,7 +1,8 @@
 # Change Log
 
-## 1.5.1
+## 1.6.0
 
+* Color theme variant `Dark`
 * Updated README with color variants
 * Small fix in JavaScript regular expressions
 
