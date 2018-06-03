@@ -11,6 +11,16 @@ See the [CHANGELOG](CHANGELOG.md) for the latest changes.
 
 _Icon theme: [ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), Font: [Dank Mono](https://dank.sh)_
 
+## Variants
+
+### Dark
+
+![Dark](screenshot-dark.png)
+
+### Slime
+
+![Slime](screenshot-slime.png)
+
 ## Usage
 
 Select the theme and you are ready to go!

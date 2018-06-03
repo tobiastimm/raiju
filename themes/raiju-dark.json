@@ -1,0 +1,979 @@
+{
+  "name": "Raijū - Dark",
+  "author": "Tobias Timm",
+  "maintainers": ["Tobias Timm <tbs.timm@gmail.com>"],
+  "type": "dark",
+  "colors": {
+    "activityBar.background": "#1c1f26",
+    "activityBar.foreground": "#D7DAE0",
+    "activityBarBadge.background": "#314365",
+    "activityBarBadge.foreground": "#F8FAFD",
+    "badge.background": "#282c34",
+    "button.background": "#404754",
+    "dropdown.background": "#1c1f26",
+    "debugToolBar.background": "#21252b",
+    "diffEditor.insertedTextBackground": "#01579b",
+    "editorError.foreground": "#E15A60",
+    "editorMarkerNavigation.background": "#21252b",
+    "editorRuler.foreground": "#abb2bf26",
+    "editor.lineHighlightBackground": "#65737e30",
+    "editor.selectionBackground": "#67769660",
+    "editor.selectionHighlightBackground": "#ffffff10",
+    "editorCursor.background": "#ffffffc9",
+    "editor.findMatchHighlightBackground": "#314365",
+    "editor.wordHighlightBackground": "#314365",
+    "editor.wordHighlightStrongBackground": "#abb2bf26",
+    "editorGroup.background": "#181A1F",
+    "editorGroup.border": "#181A1F",
+    "editorIndentGuide.background": "#3B4048",
+    "editorLineNumber.foreground": "#495162",
+    "editorWhitespace.foreground": "#3B4048",
+    "editorHoverWidget.background": "#232830",
+    "editorHoverWidget.border": "#181A1F",
+    "editorSuggestWidget.background": "#21252B",
+    "editorSuggestWidget.border": "#181A1F",
+    "editorSuggestWidget.selectedBackground": "#2c313a",
+    "editorWidget.background": "#21252B",
+    "gitDecoration.modifiedResourceForeground": "#8d9ad1",
+    "gitDecoration.deletedResourceForeground": "#E15A60",
+    "gitDecoration.untrackedResourceForeground": "#7ebbbb",
+    "gitDecoration.conflictingResourceForeground": "#E15A60",
+    "input.background": "#1c1f26",
+    "input.border": "#8d9ad1",
+    // "list.highlightForeground": "#7e7edd",
+    "list.highlightForeground": "#8d9ad1",
+    "peekViewEditor.matchHighlightBackground": "#29244b",
+    "sideBarSectionHeader.background": "#1c1f26",
+    "statusBar.background": "#1c1f26",
+    "statusBar.foreground": "#9da5b4",
+    "statusBarItem.hoverBackground": "#2c313a",
+    "statusBar.noFolderBackground": "#21252B",
+    "statusBar.debuggingBackground": "#003939",
+    "statusBar.debuggingBorder": "#314365",
+    "statusBar.debuggingForeground": "#ffffff",
+    "titleBar.activeForeground": "#9da5b4",
+    "titleBar.inactiveForeground": "#6B717D",
+    "dropdown.border": "#282c35",
+    "editor.background": "#2a2d37",
+    "editor.foreground": "#d4d4d4",
+    "editorCursor.foreground": "#b6bcc4",
+    "editorGroupHeader.tabsBorder": "#282c35",
+    "editorGutter.background": "#282c35",
+    "gitDecoration.ignoredResourceForeground": "#64727f",
+    "list.activeSelectionBackground": "#1E3053",
+    "list.activeSelectionForeground": "#dfe1e8",
+    "list.inactiveSelectionBackground": "#1E3053",
+    "list.inactiveSelectionForeground": "#dfe1e8",
+    "list.focusBackground": "#1E3053",
+    "list.focusForeground": "#dfe1e8",
+    "list.hoverBackground": "#1E3053",
+    "list.hoverForeground": "#c0c5cd",
+    "panel.background": "#232830",
+    "panel.border": "#232830",
+    "scrollbar.shadow": "#282c35",
+    "scrollbarSlider.activeBackground": "#343d46",
+    "scrollbarSlider.background": "#282c35",
+    "scrollbarSlider.hoverBackground": "#343d46",
+    "sideBar.background": "#1c1f26",
+    "sideBar.border": "#232830",
+    "sideBar.foreground": "#64727f",
+    "sideBarSectionHeader.foreground": "#c0c5cd",
+    "editorGroupHeader.tabsBackground": "#1c1f26",
+    "editorGroup.dropBackground": "#1c1f26",
+    "tab.border": "#1c1f26",
+    "tab.activeBackground": "#2b303b",
+    "tab.inactiveBackground": "#1c1f26",
+    "titleBar.inactiveBackground": "#1c1f26",
+    "titleBar.activeBackground": "#1c1f26",
+    "widget.shadow": "#282c35",
+    "pickerGroup.foreground": "#8d9ad1",
+    "pickerGroup.border": "#314365",
+    "focusBorder": "#314365",
+    "progressBar.background": "#314365"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#6F7899",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Flow Typedef",
+      "scope": [
+        "meta.type.flowtype.js variable.other.flowtype.js",
+        "meta.flowtype.polymorph.js variable.other.flowtype.js"
+      ],
+      "settings": {
+        "foreground": "#c9ccd8",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "TypeScript Typedef",
+      "scope": [
+        "entity.name.type.ts",
+        "entity.name.type.tsx",
+        "meta.interface.ts variable.object.property.ts",
+        "meta.interface.tsx variable.object.property.tsx",
+        "meta.definition.property.ts variable.object.property.ts",
+        "meta.definition.property.tsx variable.object.property.tsx",
+        "meta.type.declaration.ts variable.object.property.ts",
+        "meta.type.declaration.tsx variable.object.property.tsx"
+      ],
+      "settings": {
+        "foreground": "#c9ccd8"
+      }
+    },
+    {
+      "name": "PHP Typedef",
+      "scope": ["meta.function.parameter.typehinted.php storage.type.php"],
+      "settings": {
+        "foreground": "#c9ccd8"
+      }
+    },
+    {
+      "name": "PHP Block",
+      "scope": [
+        "punctuation.section.embedded.begin.php",
+        "punctuation.section.embedded.end.php"
+      ],
+      "settings": {
+        "foreground": "#c9ccd8"
+      }
+    },
+    {
+      "name": "Keyword - JavaScript",
+      "scope": [
+        "source.js keyword",
+        "source.jsx keyword",
+        "storage.type.js",
+        "storage.type.function.js",
+        "meta.type.flowtype.js support.type.type.flowtype.js",
+        "variable.other.flowtype.js",
+        "storage.type.extends.js",
+        "storage.type.function.js",
+        "storage.type.class.js",
+        "string.regexp.js keyword",
+        "source.js meta.group.braces.curly.js keyword.other.substitution",
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#7F7F7F",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword - TypeScript",
+      "scope": [
+        "source.ts keyword",
+        "source.tsx keyword",
+        "source.ts storage.modifier",
+        "source.tsx storage.modifer",
+        "storage.type.ts",
+        "storage.type.tsx",
+        "storage.type.function.ts",
+        "storage.type.function.tsx",
+        "storage.type.extends.ts",
+        "storage.type.extends.tsx",
+        "storage.type.type.ts",
+        "storage.type.type.tsx",
+        "storage.type.interface.ts",
+        "storage.type.interface.tsx",
+        "storage.type.class.ts",
+        "storage.type.class.tsx",
+        "storage.modifier.ts",
+        "storage.modifier.tsx",
+        "string.regexp.ts keyword",
+        "string.regexp.tsx keyword",
+        "constant.language.import-export-all.ts",
+        "constant.language.import-export-all.tsx",
+        "variable.object.property.ts",
+        "variable.object.property.tsx",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end"
+      ],
+      "settings": {
+        "foreground": "#7F7F7F",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword - PHP",
+      "scope": [
+        "source.php keyword",
+        "storage.type.php",
+        "storage.type.function.php",
+        "storage.type.extends.php",
+        "storage.type.class.php",
+        "storage.modifier.php",
+        "source.php storage.modifier",
+        "storage.modifier.extends.php",
+        "storage.modifier.implements.php",
+        "source.php meta.group.braces.curly.php keyword.other.substitution",
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#7F7F7F",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword - Dockerfile",
+      "scope": ["source.dockerfile keyword"],
+      "settings": {
+        "foreground": "#7F7F7F",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword - Shell Script",
+      "scope": ["source.shell keyword"],
+      "settings": {
+        "foreground": "#7F7F7F",
+        "fontStyle": "italic"
+      }
+    },
+
+    {
+      "name": "Keyword - XML",
+      "scope": ["text.xml keyword"],
+      "settings": {
+        "foreground": "#7F7F7F",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword - Java",
+      "scope": [
+        "source.java keyword",
+        "storage.modifier.java",
+        "storage.type.java",
+        "storage.type.primitive.java",
+        "storage.type.object.array.java"
+      ],
+      "settings": {
+        "foreground": "#7F7F7F",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Var definition - Shell Script",
+      "scope": ["source.shell punctuation.definition.variable.shell"],
+      "settings": {
+        "foreground": "#7F7F7F"
+      }
+    },
+    {
+      "name": "Function Call - JavaScript",
+      "scope": [
+        "source.js support.function",
+        "support.function.js",
+        "variable.function.js",
+        "meta.method-call.static.js entity.name.function.js",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.js",
+        "variable.function.constructor.js",
+        "keyword.operator.arithmetic.js"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "name": "Constant - Gradle",
+      "scope": "source.groovy constant.other.key.groovy",
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "name": "Function Call - TypeScript",
+      "scope": [
+        "source.ts support.function",
+        "source.tsx support.function",
+        "support.function.ts",
+        "support.function.tsx",
+        "meta.function-call.ts entity.name.function.ts",
+        "meta.function-call.tsx entity.name.function.tsx",
+        "meta.method-call.static.ts entity.name.function.ts",
+        "meta.method-call.static.tsx entity.name.function.tsx",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.ts",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.tsx",
+        "variable.function.constructor.ts",
+        "variable.function.constructor.tsx",
+        "constant.language.import-export-all.ts",
+        "constant.language.import-export-all.tsx",
+        "meta.var.expr.ts new.expr.ts entity.name.type.ts",
+        "meta.var.expr.tsx new.expr.tsx entity.name.type.tsx"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "name": "Function Call - PHP",
+      "scope": [
+        "source.php support.function",
+        "variable.function.php",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.php",
+        "variable.function.constructor.php",
+        "meta.method-call.php entity.name.function.php",
+        "meta.method-call.static.php entity.name.function.php",
+        "meta.function-call.php entity.name.function.php",
+        "keyword.operator.arithmetic.php",
+        "support.function.construct.output.php",
+        "support.class.php",
+        "meta.function-call.php support.function.construct.php"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "name": "Function Call - Shell Script",
+      "scope": [
+        "source.shell support.function",
+        "keyword.operator.arithmetic.shell"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "name": "Variable - XML",
+      "scope": ["text.xml variable.language"],
+      "settings": {
+        "foreground": "#d7e2ff",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Function Call - Java",
+      "scope": [
+        "source.java support.function",
+        "support.function.java",
+        "meta.function-call.java entity.name.function.java",
+        "meta.method-call.static.java entity.name.function.java",
+        "meta.method-call.java entity.name.function.java",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.java",
+        "variable.function.constructor.java",
+        "keyword.operator.arithmetic.java",
+        "storage.modifier.import.java variable.language.wildcard.java"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "name": "JSON",
+      "scope": ["string.quoted.double.json"],
+      "settings": {
+        "foreground": "#8d9ad1"
+      }
+    },
+    {
+      "name": "CSS/SCSS/Styl - Operator",
+      "scope": [
+        "source.css keyword.operator",
+        "source.scss keyword.operator.",
+        "source.stylus keyword.operator."
+      ],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "CSS/SCSS/Styl - Classes",
+      "scope": [
+        "source.css entity.other.attribute-name.class",
+        "source.scss entity.other.attribute-name.class",
+        "source.stylus entity.other.attribute-name.class"
+      ],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "CSS/SCSS/Styl - Id",
+      "scope": [
+        "source.css entity.other.attribute-name.id",
+        "source.scss entity.other.attribute-name.iccccccccccccccccccccccccccccd",
+        "source.stylus entity.other.attribute-name.id"
+      ],
+      "settings": {
+        "foreground": "#c9ccd8",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "CSS/SCSS/Styl - Pseudo",
+      "scope": [
+        "source.css entity.other.attribute-name.pseudo-class.css",
+        "source.css entity.other.attribute-name.pseudo-element",
+        "source.scss entity.other.attribute-name.pseudo-element",
+        "source.scss entity.other.attribute-name.pseudo-class.css",
+        "source.stylus entity.other.attribute-name.pseudo-class.css",
+        "source.stylus entity.other.attribute-name.pseudo-element",
+        "source.css.less entity.other.attribute-name.pseudo-class.css",
+        "source.css.less entity.other.attribute-name.pseudo-element"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "CSS/SCSS/Styl - keyword",
+      "scope": [
+        "keyword.control.at-rule",
+        "keyword.control.at-rule.mixin.scss",
+        "keyword.control.at-rule.import.scss",
+        "keyword.control.at-rule.include.scss",
+        "keyword.control.at-rule.extend.scss",
+        "keyword.control.at-rule.extend.scss",
+        "keyword.control.if.scss",
+        "keyword.control.else.scss",
+        "punctuation.definition.keyword.stylus",
+        "keyword.control.stylus",
+        "source.stylus meta.selector.stylus",
+        "source.css.less meta.property-list.css entity.other.attribute-name.parent-selector.css punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "#7F7F7F",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "SCSS/Styl - Functions",
+      "scope": [
+        "source.css.scss entity.name.function",
+        "source.css.stylus entity.name.function",
+        "source.stylus entity.name.function.stylus"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "LESS - Keyword",
+      "scope": ["source.css.less keyword.control.logical.operator.less"],
+      "settings": {
+        "foreground": "#7F7F7F",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "SCSS/LESS - Function Call",
+      "scope": [
+        "source.css.scss meta.property-list.scss meta.property-value.scss variable.scss",
+        "source.css.less meta.property-list.css variable.other.less",
+        "source.css.less meta.property-list.css entity.other.attribute-name.class.mixin.css"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "name": "CSS/SCSS/LESS/Stylus - Punctuation",
+      "scope": [
+        "source.css entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "source.css.scss entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "source.stylus entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "source.css.less entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "source.css entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+        "source.css.less entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+        "source.scss entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+        "source.stylus entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "INI - Group",
+      "scope": ["entity.name.section.group-title.ini"],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "INI - Operator",
+      "scope": ["punctuation.separator.key-value.ini"],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "INI - Definition",
+      "scope": ["keyword.other.definition.ini"],
+      "settings": {
+        "foreground": "#7F7F7F"
+      }
+    },
+    {
+      "name": "INI - Comment",
+      "scope": ["comment.line.number-sign.ini"],
+      "settings": {
+        "foreground": "#6F7899",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown - Heading",
+      "scope": ["markup.heading.markdown"],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Markdown - Quote",
+      "scope": ["markup.quote.markdown"],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "name": "Markdown - Comment",
+      "scope": ["text.html.markdown comment.block.html"],
+      "settings": {
+        "foreground": "#6F7899",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown - Link",
+      "scope": [
+        "text.html.markdown meta.link.inline.markdown",
+        "text.html.markdown meta.image.inline.markdown",
+        "text.html.markdown markup.inline.raw.string.markdown"
+      ],
+      "settings": {
+        "foreground": "#8d9ad1"
+      }
+    },
+    {
+      "name": "Function/Class Name - JavaScript",
+      "scope": [
+        "entity.name.function.js",
+        "meta.class.js entity.name.class",
+        "meta.class meta.function-call variable.function.js",
+        "source.js keyword.control.loop.js",
+        "storage.type.function.arrow.js",
+        "tag.decorator.js entity.name.tag.js"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Function/Class Name - TypeScript",
+      "scope": [
+        "entity.name.function.ts",
+        "entity.name.function.tsx",
+        "meta.class.ts entity.name.type.class",
+        "meta.class.tsx entity.name.type.class",
+        "meta.class meta.function-call variable.function.ts",
+        "meta.class meta.function-call variable.function.tsx",
+        "source.ts keyword.control.loop.ts",
+        "source.tsx keyword.control.loop.tsx",
+        "storage.type.function.arrow.ts",
+        "storage.type.function.arrow.tsx"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Function/Class Name - PHP",
+      "scope": [
+        "entity.name.function.php",
+        "meta.class.php entity.name.type.class",
+        "meta.class meta.function-call variable.function.php",
+        "source.php keyword.control.loop.php",
+        "storage.type.function.arrow.php",
+        "support.function.magic.php"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Function/Class Name - Java",
+      "scope": [
+        "meta.method.identifier.java entity.name.function.java",
+        "meta.method.identifier.java storage.type.generic.java",
+        "meta.class meta.function-call variable.function.java",
+        "source.java keyword.control.loop.java",
+        "storage.type.function.arrow.java",
+        "meta.class.identifier.java entity.name.type.class.java"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Definition - XML",
+      "scope": [
+        "meta.tag.preprocessor.xml punctuation.definition.tag.xml",
+        "meta.tag.sgml.doctype.xml punctuation.definition.tag.xml"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Control Flow - JavaScript",
+      "scope": [
+        "keyword.control.flow.js",
+        "keyword.control.trycatch.js",
+        "source.js meta.group.braces.curly.js keyword.control.loop.js",
+        "keyword.control.switch.js"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Control Flow - TypeScript",
+      "scope": [
+        "keyword.control.flow.ts",
+        "keyword.control.flow.tsx",
+        "keyword.control.trycatch.ts",
+        "keyword.control.trycatch.tsx",
+        "source.ts meta.group.braces.curly.ts keyword.control.loop.ts",
+        "source.tsx meta.group.braces.curly.tsx keyword.control.loop.tsx",
+        "source.ts meta.export.default.ts keyword.control.default.ts",
+        "source.tsx meta.export.default.tsx keyword.control.default.tsx",
+        "keyword.control.switch.ts",
+        "keyword.control.switch.tsx"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Control Flow - php",
+      "scope": [
+        "keyword.control.flow.php",
+        "keyword.control.trycatch.php",
+        "source.php meta.group.braces.curly.php keyword.control.loop.php",
+        "keyword.control.switch.php"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Control Flow - Shell Script",
+      "scope": [
+        "source.shell meta.scope.while-loop.shell keyword.control.shell",
+        "source.shell meta.scope.for-in-loop.shell keyword.control.shell"
+      ],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Control Flow - Shell Script 2",
+      "scope": [
+        "source.shell meta.scope.while-loop.shell meta.scope.if-block.shell keyword.control.shell",
+        "source.shell meta.scope.for-in-loop.shell meta.scope.if-block.shell keyword.control.shell"
+      ],
+      "settings": {
+        "foreground": "#8d9ad1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Control Flow - Java",
+      "scope": [
+        "keyword.control.flow.java",
+        "keyword.control.trycatch.java",
+        "source.java meta.group.braces.curly.java keyword.control.loop.java",
+        "keyword.control.switch.java"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Control Flow - Java italic",
+      "scope": ["keyword.control.java"],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Operator - XML",
+      "scope": ["meta.tag.preprocessor.xml"],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Operator - XML",
+      "scope": ["meta.tag.preprocessor.xml entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#c9ccd8"
+      }
+    },
+    {
+      "name": "Assignment",
+      "scope": "keyword.operator.assignment",
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Logic - JavaScript",
+      "scope": ["keyword.operator.logical.js"],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Logic - TypeScript",
+      "scope": ["keyword.operator.logical.ts", "keyword.operator.logical.tsx"],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Logic - PHP",
+      "scope": [
+        "source.php keyword.operator",
+        "punctuation.separator.inheritance.php"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Logic - Shell",
+      "scope": ["source.shell meta.scope.logical-expression.shell"],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Variables & Braces - Shell",
+      "scope": [
+        "source.shell punctuation.definition.logical-expression.shell",
+        "source.shell variable.other",
+        "source.shell variable.other.normal.shell"
+      ],
+      "settings": {
+        "foreground": "#c9ccd8",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "HTML Tag names",
+      "scope": [
+        "entity.name.tag support.class.component",
+        "meta.tag.other.html",
+        "meta.tag.other.js",
+        "meta.tag.other.jsx",
+        "meta.tag.other.tsx",
+        "entity.name.tag.tsx",
+        "entity.name.tag.jsx",
+        "entity.name.tag.js",
+        "entity.name.tag",
+        "meta.tag.js",
+        "meta.tag.html"
+      ],
+      "settings": {
+        "foreground": "#7F7F7F"
+      }
+    },
+    {
+      "name": "Template Strings",
+      "scope": [
+        "keyword.other.template.begin",
+        "keyword.other.template.end",
+        "punctuation.definition.string.template.begin",
+        "punctuation.definition.string.template.end"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "String",
+      "scope": ["string.quoted", "string.interpolated", "string.template"],
+      "settings": {
+        // "foreground": "#729CDB"
+        "foreground": "#8d9ad1"
+      }
+    },
+    {
+      "name": "Literal",
+      "scope": [
+        "constant.language",
+        "constant.numeric",
+        "support.constant",
+        "constant.character",
+        "constant.other.color",
+        "constant.other.symbol",
+        "constant.other.key",
+        "keyword.other.unit"
+      ],
+      "settings": {
+        // "foreground": "#336666"
+        "foreground": "#A7A7EE"
+        // "foreground": "#a5bdfe"
+      }
+    },
+    {
+      "name": "Inserted",
+      "scope": "markup.inserted",
+      "settings": {
+        "foreground": "#99C794"
+      }
+    },
+    {
+      "name": "Deleted",
+      "scope": "markup.deleted",
+      "settings": {
+        "foreground": "#E15A60"
+      }
+    },
+    {
+      "name": "Changed",
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "#BB80B3"
+      }
+    },
+    {
+      "name": "URL",
+      "scope": "*url*, *link*, *uri*",
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Search Results Nums",
+      "scope": "constant.numeric.line-number.find-in-files - match",
+      "settings": {
+        "foreground": "#AB7967"
+      }
+    },
+    {
+      "name": "Search Results Lines",
+      "scope": "entity.name.filename.find-in-files",
+      "settings": {
+        "foreground": "#99C794"
+      }
+    },
+    {
+      "scope": "token.info-token",
+      "settings": {
+        "foreground": "#6796e6"
+      }
+    },
+    {
+      "scope": "token.warn-token",
+      "settings": {
+        "foreground": "#cd9731"
+      }
+    },
+    {
+      "scope": "token.error-token",
+      "settings": {
+        "foreground": "#f44747"
+      }
+    },
+    {
+      "scope": "token.debug-token",
+      "settings": {
+        "foreground": "#b267e6"
+      }
+    },
+    {
+      "name": "Italic font style",
+      "scope": [
+        "entity.name.tag.doctype",
+        "meta.tag.sgml.doctype",
+        "meta.tag.sgml.doctype.html",
+        "markup.italic.markdown",
+        "markup.quote.markdown",
+        "support.type.primitive",
+        "entity.other.attribute-name",
+        "entity.name.tag.custom",
+        "source.js entity.other.attribute-name.js",
+        "ext.html.basic entity.other.attribute-name.html",
+        "source.js.jsx keyword.control.flow.js",
+        "support.type.property.css",
+        "support.function.basic_functions",
+        "variable.assignment.coffee",
+        "support.function.basic_functions",
+        "keyword.operator.type.annotation",
+        "assignment.coffee",
+        "italic",
+        "quote",
+        "type .function",
+        "type.function",
+        "storage.modifier.js",
+        "storage.modifier.ts",
+        "storage.modifier.tsx",
+        "storage.modifier.php",
+        "storage.type.class",
+        "modifier",
+        "keyword.control.flow",
+        "source.shell keyword.control.shell",
+        "keyword.control.default",
+        "this",
+        "variable.language.this.php"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Normal font style",
+      "scope": [
+        "meta.interface.ts variable.object.property",
+        "meta.interface.tsx variable.object.property",
+        "meta.type.declaration.ts variable.object.property",
+        "meta.type.declaration.tsx variable.object.property",
+        "meta.function.parameter.typehinted.php storage.type.php",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "source.js meta.group.braces.curly.js keyword.other.substitution",
+        "keyword.operator.type.annotation",
+        "keyword.operator.type",
+        "keyword.operator.logical",
+        "source.php keyword.operator",
+        "variable.object.property.ts",
+        "variable.object.property.tsx",
+        "keyword.operator.class.php",
+        "support.function.basic_functions.php",
+        "keyword.operator.flowtype.other.js",
+        "source.shell keyword.operator",
+        "keyword.operator.ternary.js",
+        "keyword.operator.ternary.ts",
+        "keyword.operator.ternary.tsx",
+        "source.js meta.group.regexp keyword.operator",
+        "source.ts meta.group.regexp keyword.operator",
+        "source.tsx meta.group.regexp keyword.operator",
+        "string.regexp.js keyword.control.anchor.regexp",
+        "string.regexp.ts keyword.control.anchor.regexp",
+        "string.regexp.tsx keyword.control.anchor.regexp"
+      ],
+      "settings": {
+        "fontStyle": "normal"
+      }
+    }
+  ]
+}

@@ -14,6 +14,7 @@ const reg = /\.(js|ts|mjs)$/;
 
 import * as styles from './mission.scss';
 
+// this is a comment!
 export default function MissionIcon({ key, title }) {
 
   const string = 'string';

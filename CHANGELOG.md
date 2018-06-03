@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.5.1
+
+* Updated README with color variants
+* Small fix in JavaScript regular expressions
+
 ## 1.5.0
 
 * Experimental color theme variant `Slime`
