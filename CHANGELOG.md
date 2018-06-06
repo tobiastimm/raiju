@@ -1,50 +1,54 @@
 # Change Log
 
+## 1.6.1
+
+- Small UI color improvements
+
 ## 1.6.0
 
-* Color theme variant `Dark`
-* Updated README with color variants
-* Small fix in JavaScript regular expressions
+- Color theme variant `Dark`
+- Updated README with color variants
+- Small fix in JavaScript regular expressions
 
 ## 1.5.0
 
-* Experimental color theme variant `Slime`
+- Experimental color theme variant `Slime`
 
 ## 1.4.2
 
-* Removed italic styles for regexp operators in JavaScript and TypeScript
-* Added correct styling for missing TypeScript modifiers
+- Removed italic styles for regexp operators in JavaScript and TypeScript
+- Added correct styling for missing TypeScript modifiers
 
 ## 1.4.1
 
-* Remove italic ternary operator in JavaScript and TypeScript
+- Remove italic ternary operator in JavaScript and TypeScript
 
 ## 1.4.0
 
-* Java, gradle & XML Support (#6)
-* LESS Support
-* Style improvements in CSS, SCSS and Stylus
+- Java, gradle & XML Support (#6)
+- LESS Support
+- Style improvements in CSS, SCSS and Stylus
 
 ## 1.3.0
 
-* Github Pages https://tobiastimm.github.io/raiju/ (#4)
-* Support for Shell Scripts (#3)
-* Support for Dockerfile (#8)
+- Github Pages https://tobiastimm.github.io/raiju/ (#4)
+- Support for Shell Scripts (#3)
+- Support for Dockerfile (#8)
 
 ## 1.2.0
 
-* Support for PHP (#1)
-* Style improvements for .js, .ts and .tsx
+- Support for PHP (#1)
+- Style improvements for .js, .ts and .tsx
 
 ## 1.1.1
 
-* Fix for some italic styles in .js / .ts
+- Fix for some italic styles in .js / .ts
 
 ## 1.1.0
 
-* Changed `list.highlightForeground` color
-* Support for CSS, SCSS, Stylus, INI and Markdown
+- Changed `list.highlightForeground` color
+- Support for CSS, SCSS, Stylus, INI and Markdown
 
 ## 1.0.0
 
-* Initial release
+- Initial release

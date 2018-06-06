@@ -90,7 +90,19 @@
     "pickerGroup.foreground": "#147878",
     "pickerGroup.border": "#004F4F",
     "focusBorder": "#004F4F",
-    "progressBar.background": "#004F4F"
+    "progressBar.background": "#004F4F",
+    "editorLink.activeForeground": "#147878",
+    "peekView.border": "#004F4F",
+    "peekViewEditor.matchHighlightBorder": "#004F4F",
+    "peekViewTitle.background": "#1c1f26",
+    "peekViewTitleDescription.foreground": "#d4d4d4",
+    "peekViewTitleLabel.foreground": "#d4d4d4",
+    "notifications.background": "#282c35",
+    "notifications.foreground": "#d4d4d4",
+    "notificationCenterHeader.foreground": "#d4d4d4",
+    "extensionButton.prominentForeground": "#d4d4d4",
+    "extensionButton.prominentBackground": "#004F4F",
+    "extensionButton.prominentHoverBackground": "#147878"
   },
   "tokenColors": [
     {
