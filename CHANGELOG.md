@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.7.1
+
+- Fix HTML color for `Subliminal` variant
+
 ## 1.7.0
 
 - Elixir support (#10)
