@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.7.0
+
+- Elixir support (#10)
+- Color theme variant `Subliminal` (#11)
+- Small fixes in `Dark` variant
+
 ## 1.6.1
 
 - Small UI color improvements
