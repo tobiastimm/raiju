@@ -280,6 +280,20 @@
       }
     },
     {
+      "name": "Keyword - Elixir",
+      "scope": [
+        "source.elixir keyword",
+        "storage.modifier.elixir",
+        "storage.type.elixir",
+        "storage.type.primitive.elixir",
+        "storage.type.object.array.elixir"
+      ],
+      "settings": {
+        "foreground": "#7F7F7F",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Function Call - JavaScript",
       "scope": [
         "source.js support.function",
@@ -633,6 +647,16 @@
       }
     },
     {
+      "name": "Function/Class Name - Elixir",
+      "scope": [
+        "source.elixir entity.name.function.elixir",
+        "entity.name.type.module.elixir"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
       "name": "Definition - XML",
       "scope": [
         "meta.tag.preprocessor.xml punctuation.definition.tag.xml",
@@ -716,6 +740,14 @@
       ],
       "settings": {
         "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Control Flow - Elixir",
+      "scope": ["keyword.control.elixir"],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "italic"
       }
     },
     {
@@ -819,6 +851,24 @@
       ],
       "settings": {
         "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Template Strings - Elixir",
+      "scope": [
+        "source.elixir string.quoted.double.elixir source.elixir.embedded.source punctuation.section.embedded.elixir"
+      ],
+      "settings": {
+        "foreground": "#7F7F7F"
+      }
+    },
+    {
+      "name": "Template Strings Code - Elixir",
+      "scope": [
+        "source.elixir string.quoted.double.elixir source.elixir.embedded.source"
+      ],
+      "settings": {
+        "foreground": "#c9ccd8"
       }
     },
     {
@@ -981,7 +1031,8 @@
         "source.tsx meta.group.regexp keyword.operator",
         "string.regexp.js keyword.control.anchor.regexp",
         "string.regexp.ts keyword.control.anchor.regexp",
-        "string.regexp.tsx keyword.control.anchor.regexp"
+        "string.regexp.tsx keyword.control.anchor.regexp",
+        "keyword.operator.other.elixir"
       ],
       "settings": {
         "fontStyle": "normal"
