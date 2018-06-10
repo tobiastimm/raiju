@@ -21,6 +21,10 @@ _Icon theme: [ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.a
 
 ![Slime](screenshot-slime.png)
 
+### Subliminal
+
+![Subliminal](screenshot-subliminal.png)
+
 ## Usage
 
 Select the theme and you are ready to go!
