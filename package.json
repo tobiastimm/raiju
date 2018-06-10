@@ -1,48 +1,53 @@
 {
-    "name": "raiju",
-    "displayName": "Raijū",
-    "description": "Raijū is a Visual Studio Code theme inspired by Ariake Dark and Subliminal",
-    "license": "MIT",
-    "version": "1.6.1",
-    "publisher": "TobiasTimm",
-    "preview": false,
-    "engines": {
-        "vscode": "^1.22.0"
-    },
-    "keywords": [
-        "theme",
-        "blue",
-        "subliminal",
-        "dark",
-        "ariake"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/tobiastimm/raiju.git"
-    },
-    "bugs": {
-        "url": "https://github.com/tobiastimm/raiju/issues"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Raijū",
-                "uiTheme": "vs-dark",
-                "path": "./themes/raiju.json"
-            },
-            {
-                "label": "Raijū - Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/raiju-dark.json"
-            },
-            {
-                "label": "Raijū - Slime",
-                "uiTheme": "vs-dark",
-                "path": "./themes/raiju-slime.json"
-            }
-        ]
-    }
+  "name": "raiju",
+  "displayName": "Raijū",
+  "description": "Raijū is a Visual Studio Code theme inspired by Ariake Dark and Subliminal",
+  "license": "MIT",
+  "version": "1.6.1",
+  "publisher": "TobiasTimm",
+  "preview": false,
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "keywords": [
+    "theme",
+    "blue",
+    "subliminal",
+    "dark",
+    "ariake"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobiastimm/raiju.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tobiastimm/raiju/issues"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Raijū",
+        "uiTheme": "vs-dark",
+        "path": "./themes/raiju.json"
+      },
+      {
+        "label": "Raijū - Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/raiju-dark.json"
+      },
+      {
+        "label": "Raijū - Slime",
+        "uiTheme": "vs-dark",
+        "path": "./themes/raiju-slime.json"
+      },
+      {
+        "label": "Raijū - Subliminal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/raiju-subliminal.json"
+      }
+    ]
+  }
 }
