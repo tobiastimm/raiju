@@ -117,7 +117,8 @@
     "notificationCenterHeader.foreground": "#d4d4d4",
     "extensionButton.prominentForeground": "#d4d4d4",
     "extensionButton.prominentBackground": "#343d46",
-    "extensionButton.prominentHoverBackground": "#64727f"
+    "extensionButton.prominentHoverBackground": "#64727f",
+    "editorUnnecessary.foreground": "#7F7F7F"
   },
   "tokenColors": [
     {

@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.7.2
+
+- Support for `editorUnnecessary.foreground`
+
 ## 1.7.1
 
 - Fix HTML color for `Subliminal` variant
