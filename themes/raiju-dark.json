@@ -148,6 +148,13 @@
       }
     },
     {
+      "name": "Go Typedef",
+      "scope": ["source.go storage.type"],
+      "settings": {
+        "foreground": "#c9ccd8"
+      }
+    },
+    {
       "name": "PHP Block",
       "scope": [
         "punctuation.section.embedded.begin.php",
@@ -280,6 +287,20 @@
       }
     },
     {
+      "name": "Keyword - Go",
+      "scope": [
+        "source.go keyword",
+        "storage.modifier.go",
+        "storage.type.go",
+        "storage.type.primitive.go",
+        "storage.type.object.array.go"
+      ],
+      "settings": {
+        "foreground": "#7F7F7F",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Keyword - Elixir",
       "scope": [
         "source.elixir keyword",
@@ -294,6 +315,22 @@
       }
     },
     {
+      "name": "Variables - Elixir",
+      "scope": [
+        "source.elixir.embedded variable.other.readwrite.module.elixir"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "name": "HTML - Elixir",
+      "scope": ["source.elixir.embedded punctuation.section.embedded.elixir"],
+      "settings": {
+        "foreground": "#7F7F7F"
+      }
+    },
+    {
       "name": "Function Call - JavaScript",
       "scope": [
         "source.js support.function",
@@ -303,6 +340,18 @@
         "meta.class meta.group.braces.curly meta.function-call variable.function.js",
         "variable.function.constructor.js",
         "keyword.operator.arithmetic.js"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "name": "Function Call - Go",
+      "scope": [
+        "source.go support.function",
+        "support.function.go",
+        "variable.function.go",
+        "keyword.operator.arithmetic.go"
       ],
       "settings": {
         "foreground": "#d7e2ff"
@@ -601,6 +650,13 @@
       }
     },
     {
+      "name": "Function/Class Name - Go",
+      "scope": ["entity.name.function.go", "source.go keyword.control.loop.go"],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
       "name": "Function/Class Name - TypeScript",
       "scope": [
         "entity.name.function.ts",
@@ -791,6 +847,14 @@
       "scope": ["keyword.operator.logical.ts", "keyword.operator.logical.tsx"],
       "settings": {
         "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "Logic - Go",
+      "scope": ["source.go keyword.operator.assignment.go"],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "normal"
       }
     },
     {
@@ -1033,7 +1097,8 @@
         "string.regexp.js keyword.control.anchor.regexp",
         "string.regexp.ts keyword.control.anchor.regexp",
         "string.regexp.tsx keyword.control.anchor.regexp",
-        "keyword.operator.other.elixir"
+        "keyword.operator.other.elixir",
+        "keyword.operator.assignment.go"
       ],
       "settings": {
         "fontStyle": "normal"

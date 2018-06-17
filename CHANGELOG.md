@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.8.0
+
+- Support for golang
+- Small color fixes in elixir
+
 ## 1.7.2
 
 - Support for `editorUnnecessary.foreground`
