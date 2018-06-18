@@ -118,7 +118,17 @@
     "extensionButton.prominentForeground": "#d4d4d4",
     "extensionButton.prominentBackground": "#343d46",
     "extensionButton.prominentHoverBackground": "#64727f",
-    "editorUnnecessary.foreground": "#7F7F7F"
+    "editorUnnecessary.foreground": "#7F7F7F",
+    "editorGutter.addedBackground": "#99C794",
+    "editorGutter.deletedBackground": "#E15A60",
+    "editorGutter.modifiedBackground": "#6699CC",
+    "editorOverviewRuler.modifiedForeground": "#6699CC",
+    "editorOverviewRuler.addedForeground": "#99C794",
+    "editorOverviewRuler.deletedForeground": "#E15A60",
+    "editorOverviewRuler.errorForeground": "#E15A60",
+    "editorOverviewRuler.warningForeground": "#cd9731",
+    "editorOverviewRuler.infoForeground": "#6796e6",
+    "editorOverviewRuler.bracketMatchForeground": "#343d46"
   },
   "tokenColors": [
     {
