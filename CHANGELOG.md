@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.8.1
+
+- Remove dependency on the sublime-babel plugin for proper synatx highlighting (#14)
+
 ## 1.8.0
 
 - Support for golang

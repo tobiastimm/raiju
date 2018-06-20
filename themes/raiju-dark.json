@@ -175,6 +175,8 @@
         "storage.type.js.jsx",
         "storage.type.function.js",
         "storage.type.function.js.jsx",
+        "storage.modifier.js",
+        "storage.modifier.js.jsx",
         "meta.type.flowtype.js support.type.type.flowtype.js",
         "meta.type.flowtype.js.jsx support.type.type.flowtype.js.jsx",
         "variable.other.flowtype.js",
