@@ -19,6 +19,16 @@ export class Test extends React.Component<{ bar: string }, {}> {
   }
 }
 
+const reg = /\.(js|ts|mjs)$/;
+
+const bla = true === "bla" ? "blub" : "foo";
+
+for (var i = test; i < 10; i++) {}
+
+while (true) {}
+
+do {} while (true);
+
 import * as styles from "./mission.scss";
 
 export default function MissionIcon({ key, title }) {

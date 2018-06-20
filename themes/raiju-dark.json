@@ -117,7 +117,9 @@
       "name": "Flow Typedef",
       "scope": [
         "meta.type.flowtype.js variable.other.flowtype.js",
-        "meta.flowtype.polymorph.js variable.other.flowtype.js"
+        "meta.type.flowtype.js.jsx variable.other.flowtype.js.jsx",
+        "meta.flowtype.polymorph.js variable.other.flowtype.js",
+        "meta.flowtype.polymorph.js.jsx variable.other.flowtype.js.jsx"
       ],
       "settings": {
         "foreground": "#c9ccd8",
@@ -168,16 +170,27 @@
       "name": "Keyword - JavaScript",
       "scope": [
         "source.js keyword",
-        "source.jsx keyword",
+        "source.js.jsx keyword",
         "storage.type.js",
+        "storage.type.js.jsx",
         "storage.type.function.js",
+        "storage.type.function.js.jsx",
         "meta.type.flowtype.js support.type.type.flowtype.js",
+        "meta.type.flowtype.js.jsx support.type.type.flowtype.js.jsx",
         "variable.other.flowtype.js",
+        "variable.other.flowtype.js.jsx",
         "storage.type.extends.js",
+        "storage.type.extends.js.jsx",
         "storage.type.function.js",
+        "storage.type.function.js.jsx",
         "storage.type.class.js",
+        "storage.type.class.js.jsx",
         "string.regexp.js keyword",
+        "string.regexp.js.jsx keyword",
+        "constant.language.import-export-all.js",
+        "constant.language.import-export-all.js.jsx",
         "source.js meta.group.braces.curly.js keyword.other.substitution",
+        "source.js.jsx meta.group.braces.curly.js.jsx keyword.other.substitution",
         "keyword.operator"
       ],
       "settings": {
@@ -334,12 +347,23 @@
       "name": "Function Call - JavaScript",
       "scope": [
         "source.js support.function",
+        "source.js.jsx support.function",
         "support.function.js",
+        "support.function.js.jsx",
         "variable.function.js",
+        "variable.function.js.jsx",
+        "meta.function-call.js entity.name.function.js",
+        "meta.function-call.js.jsx entity.name.function.js.jsx",
         "meta.method-call.static.js entity.name.function.js",
+        "meta.method-call.static.js.jsx entity.name.function.js.jsx",
         "meta.class meta.group.braces.curly meta.function-call variable.function.js",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.js.jsx",
         "variable.function.constructor.js",
-        "keyword.operator.arithmetic.js"
+        "variable.function.constructor.js.jsx",
+        "constant.language.import-export-all.js",
+        "constant.language.import-export-all.js.jsx",
+        "keyword.operator.arithmetic.js",
+        "keyword.operator.arithmetic.js.jsx"
       ],
       "settings": {
         "foreground": "#d7e2ff"
@@ -639,11 +663,17 @@
       "name": "Function/Class Name - JavaScript",
       "scope": [
         "entity.name.function.js",
+        "entity.name.function.js.jsx",
         "meta.class.js entity.name.class",
+        "meta.class.js.jsx entity.name.class",
         "meta.class meta.function-call variable.function.js",
+        "meta.class meta.function-call variable.function.js.jsx",
         "source.js keyword.control.loop.js",
+        "source.js.jsx keyword.control.loop.js.jsx",
         "storage.type.function.arrow.js",
-        "tag.decorator.js entity.name.tag.js"
+        "storage.type.function.arrow.js.jsx",
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js.jsx entity.name.tag.js.jsx"
       ],
       "settings": {
         "foreground": "#ffedcb"
@@ -726,9 +756,15 @@
       "name": "Control Flow - JavaScript",
       "scope": [
         "keyword.control.flow.js",
+        "keyword.control.flow.js.jsx",
         "keyword.control.trycatch.js",
+        "keyword.control.trycatch.js.jsx",
         "source.js meta.group.braces.curly.js keyword.control.loop.js",
-        "keyword.control.switch.js"
+        "source.js.jsx meta.group.braces.curly.js.jsx keyword.control.loop.js.jsx",
+        "source.js meta.export.default.js keyword.control.default.js",
+        "source.js.jsx meta.export.default.js.jsx keyword.control.default.js.jsx",
+        "keyword.control.switch.js",
+        "keyword.control.switch.js.jsx"
       ],
       "settings": {
         "foreground": "#ffedcb"
@@ -837,7 +873,10 @@
     },
     {
       "name": "Logic - JavaScript",
-      "scope": ["keyword.operator.logical.js"],
+      "scope": [
+        "keyword.operator.logical.js",
+        "keyword.operator.logical.js.jsx"
+      ],
       "settings": {
         "foreground": "#ffedcb"
       }
@@ -892,13 +931,12 @@
         "entity.name.tag support.class.component",
         "meta.tag.other.html",
         "meta.tag.other.js",
-        "meta.tag.other.jsx",
+        "meta.tag.other.js.jsx",
         "meta.tag.other.tsx",
         "entity.name.tag.tsx",
-        "entity.name.tag.jsx",
+        "entity.name.tag.js.jsx",
         "entity.name.tag.js",
         "entity.name.tag",
-        "meta.tag.js",
         "meta.tag.html"
       ],
       "settings": {
@@ -1039,6 +1077,7 @@
         "entity.other.attribute-name",
         "entity.name.tag.custom",
         "source.js entity.other.attribute-name.js",
+        "source.js.jsx entity.other.attribute-name.js",
         "ext.html.basic entity.other.attribute-name.html",
         "source.js.jsx keyword.control.flow.js",
         "support.type.property.css",
@@ -1052,6 +1091,7 @@
         "type .function",
         "type.function",
         "storage.modifier.js",
+        "storage.modifier.js.jsx",
         "storage.modifier.ts",
         "storage.modifier.tsx",
         "storage.modifier.php",
@@ -1078,6 +1118,7 @@
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
         "source.js meta.group.braces.curly.js keyword.other.substitution",
+        "source.js.jsx meta.group.braces.curly.js.jsx keyword.other.substitution",
         "keyword.operator.type.annotation",
         "keyword.operator.type",
         "keyword.operator.logical",
@@ -1087,14 +1128,18 @@
         "keyword.operator.class.php",
         "support.function.basic_functions.php",
         "keyword.operator.flowtype.other.js",
+        "keyword.operator.flowtype.other.js.jsx",
         "source.shell keyword.operator",
         "keyword.operator.ternary.js",
+        "keyword.operator.ternary.js.jsx",
         "keyword.operator.ternary.ts",
         "keyword.operator.ternary.tsx",
         "source.js meta.group.regexp keyword.operator",
+        "source.js.jsx meta.group.regexp keyword.operator",
         "source.ts meta.group.regexp keyword.operator",
         "source.tsx meta.group.regexp keyword.operator",
         "string.regexp.js keyword.control.anchor.regexp",
+        "string.regexp.js.jsx keyword.control.anchor.regexp",
         "string.regexp.ts keyword.control.anchor.regexp",
         "string.regexp.tsx keyword.control.anchor.regexp",
         "keyword.operator.other.elixir",
