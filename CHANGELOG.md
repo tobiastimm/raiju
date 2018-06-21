@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.8.3
+
+- Removed general styles for the moment
+
 ## 1.8.2
 
 - Added general styles to support most languages

@@ -166,26 +166,26 @@
         "foreground": "#c9ccd8"
       }
     },
-    {
-      "name": "Keyword - General",
-      "scope": [
-        "keyword",
-        "storage.type.function",
-        "storage.modifier",
-        "storage.type.extends",
-        "storage.type.implements",
-        "storage.type.function",
-        "storage.type.class",
-        "string.regexp keyword",
-        "constant.language.import-export-all",
-        "meta.group.braces.curly.js keyword.other.substitution",
-        "keyword.operator"
-      ],
-      "settings": {
-        "foreground": "#7F7F7F",
-        "fontStyle": "italic"
-      }
-    },
+    // {
+    //   "name": "Keyword - General",
+    //   "scope": [
+    //     "keyword",
+    //     "storage.type.function",
+    //     "storage.modifier",
+    //     "storage.type.extends",
+    //     "storage.type.implements",
+    //     "storage.type.function",
+    //     "storage.type.class",
+    //     "string.regexp keyword",
+    //     "constant.language.import-export-all",
+    //     "meta.group.braces.curly.js keyword.other.substitution",
+    //     "keyword.operator"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#7F7F7F",
+    //     "fontStyle": "italic"
+    //   }
+    // },
     {
       "name": "Keyword - JavaScript",
       "scope": [
@@ -365,24 +365,24 @@
         "foreground": "#7F7F7F"
       }
     },
-    {
-      "name": "Function Call - General",
-      "scope": [
-        "support.class",
-        "storage.type",
-        "support.function",
-        "variable.function",
-        "meta.function-call entity.name.function",
-        "meta.method-call.static entity.name.function.",
-        "meta.class meta.group.braces.curly meta.function-call variable.function",
-        "variable.function.constructor",
-        "constant.language.import-export-all",
-        "keyword.operator.arithmetic"
-      ],
-      "settings": {
-        "foreground": "#d7e2ff"
-      }
-    },
+    // {
+    //   "name": "Function Call - General",
+    //   "scope": [
+    //     "support.class",
+    //     "storage.type",
+    //     "support.function",
+    //     "variable.function",
+    //     "meta.function-call entity.name.function",
+    //     "meta.method-call.static entity.name.function.",
+    //     "meta.class meta.group.braces.curly meta.function-call variable.function",
+    //     "variable.function.constructor",
+    //     "constant.language.import-export-all",
+    //     "keyword.operator.arithmetic"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#d7e2ff"
+    //   }
+    // },
     {
       "name": "Function Call - JavaScript",
       "scope": [
@@ -699,20 +699,20 @@
         "foreground": "#8d9ad1"
       }
     },
-    {
-      "name": "Function/Class Name - General",
-      "scope": [
-        "entity.name.function",
-        "meta.class entity.name.class",
-        "meta.class meta.function-call variable.function",
-        "keyword.control.loop",
-        "storage.type.function.arrow",
-        "tag.decorator entity.name.tag"
-      ],
-      "settings": {
-        "foreground": "#ffedcb"
-      }
-    },
+    // {
+    //   "name": "Function/Class Name - General",
+    //   "scope": [
+    //     "entity.name.function",
+    //     "meta.class entity.name.class",
+    //     "meta.class meta.function-call variable.function",
+    //     "keyword.control.loop",
+    //     "storage.type.function.arrow",
+    //     "tag.decorator entity.name.tag"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#ffedcb"
+    //   }
+    // },
     {
       "name": "Function/Class Name - JavaScript",
       "scope": [
@@ -806,19 +806,19 @@
         "foreground": "#ffedcb"
       }
     },
-    {
-      "name": "Control Flow - General",
-      "scope": [
-        "keyword.control.flow",
-        "keyword.control.trycatch",
-        "meta.group.braces.curly keyword.control.loop",
-        "meta.export.default keyword.control.default",
-        "keyword.control.switch"
-      ],
-      "settings": {
-        "foreground": "#ffedcb"
-      }
-    },
+    // {
+    //   "name": "Control Flow - General",
+    //   "scope": [
+    //     "keyword.control.flow",
+    //     "keyword.control.trycatch",
+    //     "meta.group.braces.curly keyword.control.loop",
+    //     "meta.export.default keyword.control.default",
+    //     "keyword.control.switch"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#ffedcb"
+    //   }
+    // },
     {
       "name": "Control Flow - JavaScript",
       "scope": [
@@ -938,13 +938,13 @@
         "foreground": "#ffedcb"
       }
     },
-    {
-      "name": "Logic - General",
-      "scope": ["keyword.operator.logical"],
-      "settings": {
-        "foreground": "#ffedcb"
-      }
-    },
+    // {
+    //   "name": "Logic - General",
+    //   "scope": ["keyword.operator.logical"],
+    //   "settings": {
+    //     "foreground": "#ffedcb"
+    //   }
+    // },
     {
       "name": "Logic - JavaScript",
       "scope": [
