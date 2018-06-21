@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.8.2
+
+- Added general styles to support most languages
+
 ## 1.8.1
 
 - Remove dependency on the sublime-babel plugin for proper synatx highlighting (#14)

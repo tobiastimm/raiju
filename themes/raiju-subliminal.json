@@ -183,6 +183,26 @@
       }
     },
     {
+      "name": "Keyword - General",
+      "scope": [
+        "keyword",
+        "storage.type.function",
+        "storage.modifier",
+        "storage.type.extends",
+        "storage.type.implements",
+        "storage.type.function",
+        "storage.type.class",
+        "string.regexp keyword",
+        "constant.language.import-export-all",
+        "meta.group.braces.curly.js keyword.other.substitution",
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#7F7F7F",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Keyword - JavaScript",
       "scope": [
         "source.js keyword",
@@ -359,6 +379,24 @@
       "scope": ["source.elixir.embedded punctuation.section.embedded.elixir"],
       "settings": {
         "foreground": "#7F7F7F"
+      }
+    },
+    {
+      "name": "Function Call - General",
+      "scope": [
+        "support.class",
+        "storage.type",
+        "support.function",
+        "variable.function",
+        "meta.function-call entity.name.function",
+        "meta.method-call.static entity.name.function.",
+        "meta.class meta.group.braces.curly meta.function-call variable.function",
+        "variable.function.constructor",
+        "constant.language.import-export-all",
+        "keyword.operator.arithmetic"
+      ],
+      "settings": {
+        "foreground": "#ffe2a9"
       }
     },
     {
@@ -678,6 +716,20 @@
       }
     },
     {
+      "name": "Function/Class Name - General",
+      "scope": [
+        "entity.name.function",
+        "meta.class entity.name.class",
+        "meta.class meta.function-call variable.function",
+        "keyword.control.loop",
+        "storage.type.function.arrow",
+        "tag.decorator entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#f1a5ab"
+      }
+    },
+    {
       "name": "Function/Class Name - JavaScript",
       "scope": [
         "entity.name.function.js",
@@ -765,6 +817,19 @@
       "scope": [
         "meta.tag.preprocessor.xml punctuation.definition.tag.xml",
         "meta.tag.sgml.doctype.xml punctuation.definition.tag.xml"
+      ],
+      "settings": {
+        "foreground": "#f1a5ab"
+      }
+    },
+    {
+      "name": "Control Flow - General",
+      "scope": [
+        "keyword.control.flow",
+        "keyword.control.trycatch",
+        "meta.group.braces.curly keyword.control.loop",
+        "meta.export.default keyword.control.default",
+        "keyword.control.switch"
       ],
       "settings": {
         "foreground": "#f1a5ab"
@@ -885,6 +950,13 @@
     {
       "name": "Assignment",
       "scope": "keyword.operator.assignment",
+      "settings": {
+        "foreground": "#ffe2a9"
+      }
+    },
+    {
+      "name": "Logic - General",
+      "scope": ["keyword.operator.logical"],
       "settings": {
         "foreground": "#ffe2a9"
       }
