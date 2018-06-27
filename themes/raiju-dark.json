@@ -116,30 +116,137 @@
     {
       "name": "Flow Typedef",
       "scope": [
+        "source.js meta.interface.js storage.type.interface.js",
+        "source.js.jsx meta.interface.js.jsx storage.type.interface.js.jsx",
+        "source.js meta.type.declaration.js storage.type.type.js",
+        "source.js.jsx meta.type.declaration.js.jsx storage.type.type.js.jsx",
         "meta.type.flowtype.js variable.other.flowtype.js",
         "meta.type.flowtype.js.jsx variable.other.flowtype.js.jsx",
         "meta.flowtype.polymorph.js variable.other.flowtype.js",
         "meta.flowtype.polymorph.js.jsx variable.other.flowtype.js.jsx"
       ],
       "settings": {
-        "foreground": "#c9ccd8",
-        "fontStyle": "normal"
+        "foreground": "#7F7F7F",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Flow - Method return",
+      "scope": [
+        "source.js meta.type.declaration.js meta.object.type.js meta.field.declaration.js meta.type.annotation.js meta.type.function.return.js support.type.primitive.js",
+        "source.js.jsx meta.type.declaration.js.jsx meta.object.type.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx meta.type.function.return.js.jsx support.type.primitive.js.jsx",
+        "source.js meta.interface.js meta.field.declaration.js meta.type.annotation.js meta.type.function.return.js support.type.primitive.js",
+        "source.js.jsx meta.interface.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx meta.type.function.return.js.jsx support.type.primitive.js.jsx"
+      ],
+      "settings": {}
+    },
+    {
+      "name": "Flow Types - Primitives",
+      "scope": [
+        "source.js meta.interface.js meta.field.declaration.js meta.type.annotation.js support.type.primitive.js",
+        "source.js.jsx meta.interface.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.primitive.js.jsx",
+        "source.js meta.var.expr.js meta.var-single-variable.expr.js meta.type.annotation.js support.type.primitive.js",
+        "source.js.jsx meta.var.expr.js.jsx meta.var-single-variable.expr.js.jsx meta.type.annotation.js.jsx support.type.primitive.js.jsx",
+        "source.js meta.type.declaration.js meta.object.type.js meta.field.declaration.js meta.type.annotation.js support.type.primitive.js",
+        "source.js.jsx meta.type.declaration.js.jsx meta.object.type.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.primitive.js.jsx",
+        "source.js meta.class.js meta.field.declaration.js meta.type.annotation.js support.type.primitive.js",
+        "source.js.jsx meta.class.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.primitive.js.jsx",
+        "source.js meta.class.js meta.method.declaration.js meta.parameters.js meta.type.annotation.js support.type.primitive.js",
+        "source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx meta.parameters.js.jsx meta.type.annotation.js.jsx support.type.primitive.js.jsx",
+        "source.js meta.interface.js meta.field.declaration.js meta.type.annotation.js support.type.builtin.js",
+        "source.js.jsx meta.interface.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.builtin.js.jsx",
+        "source.js meta.type.declaration.js meta.object.type.js meta.field.declaration.js meta.type.annotation.js support.type.builtin.js",
+        "source.js.jsx meta.type.declaration.js.jsx meta.object.type.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.builtin.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#8d9ad1"
+      }
+    },
+    {
+      "name": "Flow Types - Objects",
+      "scope": [
+        "source.js meta.interface.js meta.field.declaration.js meta.type.annotation.js entity.name.type.js",
+        "source.js.jsx meta.interface.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx entity.name.type.js.jsx",
+        "source.js meta.type.declaration.js meta.object.type.js meta.field.declaration.js meta.type.annotation.js entity.name.type.js",
+        "source.js.jsx meta.type.declaration.js.jsx meta.object.type.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx entity.name.type.js.jsx",
+        "source.js meta.class.js meta.field.declaration.js meta.type.annotation.js entity.name.type.js",
+        "source.js.jsx meta.class.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx entity.name.type.js.jsx",
+        "source.js meta.var.expr.js meta.var-single-variable.expr.js meta.type.annotation.js entity.name.type.js",
+        "source.js.jsx meta.var.expr.js.jsx meta.var-single-variable.expr.js.jsx meta.type.annotation.js.jsx entity.name.type.js.jsx",
+        "source.js meta.class.js meta.method.declaration.js meta.parameters.js meta.type.annotation.js entity.name.type.js",
+        "source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx meta.parameters.js.jsx meta.type.annotation.js.jsx entity.name.type.js.jsx",
+        "source.js meta.type.declaration.js meta.type.parameters.js entity.name.type.js",
+        "source.js.jsx meta.type.declaration.js.jsx meta.type.parameters.js.jsx entity.name.type.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
       }
     },
     {
       "name": "TypeScript Typedef",
       "scope": [
-        "entity.name.type.ts",
-        "entity.name.type.tsx",
-        "meta.interface.ts variable.object.property.ts",
-        "meta.interface.tsx variable.object.property.tsx",
-        "meta.definition.property.ts variable.object.property.ts",
-        "meta.definition.property.tsx variable.object.property.tsx",
-        "meta.type.declaration.ts variable.object.property.ts",
-        "meta.type.declaration.tsx variable.object.property.tsx"
+        "source.ts meta.interface.ts storage.type.interface.ts",
+        "source.tsx meta.interface.tsx storage.type.interface.tsx",
+        "source.ts meta.type.declaration.ts storage.type.type.ts",
+        "source.tsx meta.type.declaration.tsx storage.type.type.tsx"
       ],
       "settings": {
-        "foreground": "#c9ccd8"
+        "foreground": "#7F7F7F",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "TypeScript - Method return",
+      "scope": [
+        "source.ts meta.type.declaration.ts meta.object.type.ts meta.field.declaration.ts meta.type.annotation.ts meta.type.function.return.ts support.type.primitive.ts",
+        "source.tsx meta.type.declaration.tsx meta.object.type.tsx meta.field.declaration.tsx meta.type.annotation.tsx meta.type.function.return.tsx support.type.primitive.tsx",
+        "source.ts meta.interface.ts meta.field.declaration.ts meta.type.annotation.ts meta.type.function.return.ts support.type.primitive.ts",
+        "source.tsx meta.interface.tsx meta.field.declaration.tsx meta.type.annotation.tsx meta.type.function.return.tsx support.type.primitive.tsx"
+      ],
+      "settings": {}
+    },
+    {
+      "name": "TypeScript - Primitives",
+      "scope": [
+        "source.ts meta.interface.ts meta.field.declaration.ts meta.type.annotation.ts support.type.primitive.ts",
+        "source.tsx meta.interface.tsx meta.field.declaration.tsx meta.type.annotation.tsx support.type.primitive.tsx",
+        "source.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.type.annotation.ts support.type.primitive.ts",
+        "source.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.type.annotation.tsx support.type.primitive.tsx",
+        "source.ts meta.type.declaration.ts meta.object.type.ts meta.field.declaration.ts meta.type.annotation.ts support.type.primitive.ts",
+        "source.tsx meta.type.declaration.tsx meta.object.type.tsx meta.field.declaration.tsx meta.type.annotation.tsx support.type.primitive.tsx",
+        "source.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts support.type.primitive.ts",
+        "source.tsx meta.class.tsx meta.field.declaration.tsx meta.type.annotation.tsx support.type.primitive.tsx",
+        "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts support.type.primitive.ts",
+        "source.tsx meta.class.tsx meta.method.declaration.tsx meta.parameters.tsx meta.type.annotation.tsx support.type.primitive.tsx",
+        "source.ts meta.class.ts meta.type.annotation.ts support.type.primitive.ts",
+        "source.tsx meta.class.tsx meta.type.annotation.tsx support.type.primitive.tsx",
+        "source.ts meta.interface.ts meta.field.declaration.ts meta.type.annotation.ts support.type.builtin.ts",
+        "source.tsx meta.interface.tsx meta.field.declaration.tsx meta.type.annotation.tsx support.type.builtin.tsx"
+      ],
+      "settings": {
+        "foreground": "#8d9ad1"
+      }
+    },
+    {
+      "name": "TypeScript - Objects",
+      "scope": [
+        "source.ts meta.interface.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.tsx meta.interface.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.tsx",
+        "source.ts meta.type.declaration.ts meta.object.type.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.tsx meta.type.declaration.tsx meta.object.type.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.tsx",
+        "source.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.tsx meta.class.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.tsx",
+        "source.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.type.annotation.tsx entity.name.type.tsx",
+        "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.tsx meta.class.tsx meta.method.declaration.tsx meta.parameters.tsx meta.type.annotation.tsx entity.name.type.tsx",
+        "source.ts meta.type.declaration.ts meta.type.parameters.ts entity.name.type.ts",
+        "source.tsx meta.type.declaration.tsx meta.type.parameters.tsx entity.name.type.tsx",
+        "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.tsx meta.class.tsx meta.method.declaration.tsx meta.parameters.tsx meta.type.annotation.tsx entity.name.type.tsx"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
       }
     },
     {
@@ -207,13 +314,16 @@
         "storage.type.function.js.jsx",
         "storage.type.class.js",
         "storage.type.class.js.jsx",
+        "support.type.object.module.js",
+        "support.type.object.module.js.jsx",
         "string.regexp.js keyword",
         "string.regexp.js.jsx keyword",
         "constant.language.import-export-all.js",
         "constant.language.import-export-all.js.jsx",
         "source.js meta.group.braces.curly.js keyword.other.substitution",
         "source.js.jsx meta.group.braces.curly.js.jsx keyword.other.substitution",
-        "keyword.operator"
+        "keyword.operator",
+        "source.js meta.class.js meta.method.declaration.js storage.type.property.js"
       ],
       "settings": {
         "foreground": "#7F7F7F",
@@ -245,10 +355,12 @@
         "string.regexp.tsx keyword",
         "constant.language.import-export-all.ts",
         "constant.language.import-export-all.tsx",
-        "variable.object.property.ts",
-        "variable.object.property.tsx",
         "punctuation.definition.template-expression.begin",
-        "punctuation.definition.template-expression.end"
+        "punctuation.definition.template-expression.end",
+        "source.ts meta.class.ts meta.method.declaration.ts storage.type.property.ts",
+        "source.tsx meta.class.tsx meta.method.declaration.tsx storage.type.property.tsx",
+        "source.ts meta.enum.declaration.ts storage.type.enum.ts",
+        "source.tsx meta.enum.declaration.tsx storage.type.enum.tsx"
       ],
       "settings": {
         "foreground": "#7F7F7F",
@@ -720,6 +832,8 @@
         "entity.name.function.js.jsx",
         "meta.class.js entity.name.class",
         "meta.class.js.jsx entity.name.class",
+        "meta.class.js entity.name.type.class",
+        "meta.class.js.jsx entity.name.type.class",
         "meta.class meta.function-call variable.function.js",
         "meta.class meta.function-call variable.function.js.jsx",
         "source.js keyword.control.loop.js",
@@ -727,7 +841,11 @@
         "storage.type.function.arrow.js",
         "storage.type.function.arrow.js.jsx",
         "tag.decorator.js entity.name.tag.js",
-        "tag.decorator.js.jsx entity.name.tag.js.jsx"
+        "tag.decorator.js.jsx entity.name.tag.js.jsx",
+        "source.js meta.interface.js entity.name.type.interface.js",
+        "source.js.jsx meta.interface.js.jsx entity.name.type.interface.js.jsx",
+        "source.js meta.type.declaration.js entity.name.type.js",
+        "source.js.jsx meta.type.declaration.js.jsx entity.name.type.js.jsx"
       ],
       "settings": {
         "foreground": "#ffedcb"
@@ -752,7 +870,11 @@
         "source.ts keyword.control.loop.ts",
         "source.tsx keyword.control.loop.tsx",
         "storage.type.function.arrow.ts",
-        "storage.type.function.arrow.tsx"
+        "storage.type.function.arrow.tsx",
+        "source.ts meta.interface.ts entity.name.type.interface.ts",
+        "source.tsx meta.interface.tsx entity.name.type.interface.tsx",
+        "source.ts meta.type.declaration.ts entity.name.type.ts",
+        "source.tsx meta.type.declaration.tsx entity.name.type.tsx"
       ],
       "settings": {
         "foreground": "#ffedcb"
@@ -1065,7 +1187,8 @@
         "constant.other.color",
         "constant.other.symbol",
         "constant.other.key",
-        "keyword.other.unit"
+        "keyword.other.unit",
+        "variable.language.this"
       ],
       "settings": {
         // "foreground": "#336666"
@@ -1174,7 +1297,9 @@
         "keyword.control.flow",
         "source.shell keyword.control.shell",
         "keyword.control.default",
+        "keyword.control.switch",
         "this",
+        "support.type.builtin",
         "variable.language.this.php"
       ],
       "settings": {

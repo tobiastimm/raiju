@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.9.0
+
+- Colors for typings with Flow / TypeScript
+
 ## 1.8.3
 
 - Removed general styles for the moment

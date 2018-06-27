@@ -1,6 +1,18 @@
+// @flow
+
 import * as React from 'react';
 
-// this is a comment
+interface Sample {
+  type: string | undefined;
+  name?: string;
+  click(): void;
+  callback: () => void;
+}
+
+type SampleType = {
+  myType: string;
+  callback: () => void;
+};
 
 export class Test extends React.Component<{bar: string}, {}>{
   render(){

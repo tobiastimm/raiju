@@ -15,7 +15,7 @@ type SampleType = {
 };
 
 class Test {
-  private test;
+  private test: SampleType;
 
   public printTest() {
     console.log("test");

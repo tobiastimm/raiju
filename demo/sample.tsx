@@ -9,6 +9,7 @@ interface Sample {
 
 type SampleType = {
   myType: string;
+  callback: () => void;
 };
 
 export class Test extends React.Component<{ bar: string }, {}> {
