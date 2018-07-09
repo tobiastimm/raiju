@@ -35,9 +35,9 @@
     "editorSuggestWidget.selectedBackground": "#2c313a",
     "editorWidget.background": "#21252B",
     "gitDecoration.modifiedResourceForeground": "#7ebbbb",
-    // "gitDecoration.modifiedResourceForeground": "#289090",
+    "gitDecoration.addedResourceForgeround": "#99C794",
     "gitDecoration.deletedResourceForeground": "#E15A60",
-    "gitDecoration.untrackedResourceForeground": "#A7A7EE",
+    "gitDecoration.untrackedResourceForeground": "#6F7899",
     "gitDecoration.conflictingResourceForeground": "#E15A60",
     "input.background": "#1c1f26",
     "input.border": "#076363",
@@ -251,6 +251,21 @@
       }
     },
     {
+      "name": "C# Typedef",
+      "scope": ["keyword.type.cs"],
+      "settings": {
+        "foreground": "#7ebbbb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "C# Typedef - Object",
+      "scope": ["source.cs storage.type.cs"],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
       "name": "PHP Typedef",
       "scope": ["meta.function.parameter.typehinted.php storage.type.php"],
       "settings": {
@@ -274,26 +289,6 @@
         "foreground": "#c9ccd8"
       }
     },
-    // {
-    //   "name": "Keyword - General",
-    //   "scope": [
-    //     "keyword",
-    //     "storage.type.function",
-    //     "storage.modifier",
-    //     "storage.type.extends",
-    //     "storage.type.implements",
-    //     "storage.type.function",
-    //     "storage.type.class",
-    //     "string.regexp keyword",
-    //     "constant.language.import-export-all",
-    //     "meta.group.braces.curly.js keyword.other.substitution",
-    //     "keyword.operator"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#7F7F7F",
-    //     "fontStyle": "italic"
-    //   }
-    // },
     {
       "name": "Keyword - JavaScript",
       "scope": [
@@ -324,7 +319,12 @@
         "source.js meta.group.braces.curly.js keyword.other.substitution",
         "source.js.jsx meta.group.braces.curly.js.jsx keyword.other.substitution",
         "keyword.operator",
-        "source.js meta.class.js meta.method.declaration.js storage.type.property.js"
+        "source.js meta.class.js meta.method.declaration.js storage.type.property.js",
+        "source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx storage.type.property.js.jsx",
+        "source.js meta.class.js meta.method.declaration.js storage.modifier.async.js",
+        "source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx storage.modifier.async.js.jsx",
+        "source.js meta.class.js meta.method.declaration.js meta.block.js meta.function-call.js variable.language.super.js",
+        "source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx meta.block.js.jsx meta.function-call.js.jsx variable.language.super.js.jsx"
       ],
       "settings": {
         "foreground": "#7F7F7F",
@@ -478,24 +478,18 @@
         "foreground": "#7F7F7F"
       }
     },
-    // {
-    //   "name": "Function Call - General",
-    //   "scope": [
-    //     "support.class",
-    //     "storage.type",
-    //     "support.function",
-    //     "variable.function",
-    //     "meta.function-call entity.name.function",
-    //     "meta.method-call.static entity.name.function.",
-    //     "meta.class meta.group.braces.curly meta.function-call variable.function",
-    //     "variable.function.constructor",
-    //     "constant.language.import-export-all",
-    //     "keyword.operator.arithmetic"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#d7e2ff"
-    //   }
-    // },
+    {
+      "name": "Keyword - C#",
+      "scope": [
+        "source.cs keyword",
+        "storage.modifier.cs",
+        "source.cs keyword.control.flow.break.cs"
+      ],
+      "settings": {
+        "foreground": "#7F7F7F",
+        "fontStyle": "italic"
+      }
+    },
     {
       "name": "Function Call - JavaScript",
       "scope": [
@@ -748,6 +742,23 @@
       }
     },
     {
+      "name": "Function Call - C#",
+      "scope": [
+        "source.cs support.function",
+        "support.function.cs",
+        "meta.function-call.cs entity.name.function.cs",
+        "meta.method-call.static.cs entity.name.function.cs",
+        "meta.method-call.cs entity.name.function.cs",
+        "meta.class meta.group.braces.curly meta.function-call variable.function.cs",
+        "variable.function.constructor.cs",
+        "keyword.operator.arithmetic.cs",
+        "storage.modifier.import.cs variable.language.wildcard.cs"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
       "name": "INI - Group",
       "scope": ["entity.name.section.group-title.ini"],
       "settings": {
@@ -812,20 +823,6 @@
         "foreground": "#7ebbbb"
       }
     },
-    // {
-    //   "name": "Function/Class Name - General",
-    //   "scope": [
-    //     "entity.name.function",
-    //     "meta.class entity.name.class",
-    //     "meta.class meta.function-call variable.function",
-    //     "keyword.control.loop",
-    //     "storage.type.function.arrow",
-    //     "tag.decorator entity.name.tag"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#ffedcb"
-    //   }
-    // },
     {
       "name": "Function/Class Name - JavaScript",
       "scope": [
@@ -910,6 +907,22 @@
       }
     },
     {
+      "name": "Function/Class Name - C#",
+      "scope": [
+        "meta.method.identifier.cs entity.name.function.cs",
+        "meta.method.identifier.cs storage.type.generic.cs",
+        "meta.class meta.function-call variable.function.cs",
+        "source.cs keyword.control.loop.cs",
+        "storage.type.function.arrow.cs",
+        "meta.class.identifier.cs entity.name.type.class.cs",
+        "source.cs entity.name.function.cs",
+        "source.cs entity.name.type.class.cs"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
       "name": "Function/Class Name - Elixir",
       "scope": [
         "source.elixir entity.name.function.elixir",
@@ -929,19 +942,6 @@
         "foreground": "#ffedcb"
       }
     },
-    // {
-    //   "name": "Control Flow - General",
-    //   "scope": [
-    //     "keyword.control.flow",
-    //     "keyword.control.trycatch",
-    //     "meta.group.braces.curly keyword.control.loop",
-    //     "meta.export.default keyword.control.default",
-    //     "keyword.control.switch"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#ffedcb"
-    //   }
-    // },
     {
       "name": "Control Flow - JavaScript",
       "scope": [
@@ -1025,6 +1025,18 @@
       }
     },
     {
+      "name": "Control Flow - C#",
+      "scope": [
+        "source.cs keyword.control.flow",
+        "keyword.control.trycatch.cs",
+        "source.cs meta.group.braces.curly.cs keyword.control.loop.cs",
+        "source.cs keyword.control.switch.cs"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
       "name": "Control Flow - Elixir",
       "scope": ["keyword.control.elixir"],
       "settings": {
@@ -1061,13 +1073,6 @@
         "foreground": "#ffedcb"
       }
     },
-    // {
-    //   "name": "Logic - General",
-    //   "scope": ["keyword.operator.logical"],
-    //   "settings": {
-    //     "foreground": "#ffedcb"
-    //   }
-    // },
     {
       "name": "Logic - JavaScript",
       "scope": [
@@ -1191,9 +1196,7 @@
         "variable.language.this"
       ],
       "settings": {
-        // "foreground": "#336666"
         "foreground": "#A7A7EE"
-        // "foreground": "#a5bdfe"
       }
     },
     {

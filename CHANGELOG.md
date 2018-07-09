@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.10.0
+
+- Basic C# Support (#5)
+- Small improvements in JS
+- Colors for git file status in explorer
+
 ## 1.9.0
 
 - Colors for typings with Flow / TypeScript
