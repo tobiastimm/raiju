@@ -429,17 +429,53 @@
       }
     },
     {
-      "name": "Keyword - Java",
+      "name": "Java Typedef",
+      "scope": ["keyword.type.java", "storage.type.primitive.java"],
+      "settings": {
+        "foreground": "#a9cfa4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Java Typedef - Object",
       "scope": [
-        "source.java keyword",
-        "storage.modifier.java",
-        "storage.type.java",
-        "storage.type.primitive.java",
-        "storage.type.object.array.java"
+        "source.java storage.type.java",
+        "source.java storage.type.object"
       ],
+      "settings": {
+        "foreground": "#ffe2a9"
+      }
+    },
+    {
+      "name": "Java Typedef - Generic",
+      "scope": ["source.java storage.type.generic.java"],
+      "settings": {
+        "foreground": "#a9cfa4"
+      }
+    },
+    {
+      "name": "Keyword - Java",
+      "scope": ["source.java keyword", "storage.modifier.java"],
       "settings": {
         "foreground": "#7F7F7F",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Annotations - Java",
+      "scope": [
+        "meta.declaration.annotation.java storage.type.annotation.java"
+      ],
+      "settings": {
+        "foreground": "#A7A7EE",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Annotation Constants - Java",
+      "scope": ["meta.declaration.annotation.java constant.other.key.java"],
+      "settings": {
+        "foreground": "#ffe2a9"
       }
     },
     {
@@ -655,7 +691,7 @@
         "source.stylus entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#ffedcb",
+        "foreground": "#ffe2a9",
         "fontStyle": "normal"
       }
     },
