@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.10.1
+
+- Improved Java Support
+- Semi-transparent scrollbar and git-colors thanks to @eliasmeire
+
 ## 1.10.0
 
 - Basic C# Support (#5)
