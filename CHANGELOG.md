@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.11.1
+
+- Add icon
+
 ## 1.11.0
 
 - GraphQL support
