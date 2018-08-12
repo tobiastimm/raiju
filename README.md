@@ -13,6 +13,8 @@ _Icon theme: [ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.a
 
 ## Variants
 
+At the moment only `raijū` will receive new updates. The variants `dark` and `subliminal` will be separated into their own repositories soon.
+
 ### Dark
 
 ![Dark](screenshot-dark.png)
@@ -95,7 +97,7 @@ To use a special font for the UI you need to add addtional custom css rules
 
 ```css
 .monaco-shell {
-  font-family: "Dank Mono";
+  font-family: 'Dank Mono';
 }
 
 // For better readability

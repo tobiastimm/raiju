@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.11.0
+
+- GraphQL support
+- Styling for braces, punctation, ...
+- At the moment only `raijū` will receive new updates. The variants `dark` and `subliminal` will be separated into their own repositories soon.
+
 ## 1.10.1
 
 - Improved Java Support

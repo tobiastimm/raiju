@@ -123,6 +123,127 @@
       }
     },
     {
+      "name": "Constants",
+      "scope": [
+        "source.js variable.other.constant.js",
+        "source.js.jsx variable.other.constant.js.jsx",
+        "source.ts variable.other.constant.ts",
+        "source.ts.tsx variable.other.constant.ts.tsx"
+      ],
+      "settings": {
+        "foreground": "#ceb3f7"
+        // "foreground": "#9497B8"
+        // "foreground": "#CEBBDB"
+      }
+    },
+    {
+      "name": "Meta object literal key",
+      "scope": [
+        "source.js meta.object-literal.key.js",
+        "source.js.jsx meta.object-literal.key.js.jsx",
+        "source.ts meta.object-literal.key.ts",
+        "source.tsx meta.object-literal.key.tsx"
+      ],
+      "settings": {
+        "foreground": "#A7A7EE"
+      }
+    },
+    {
+      "name": "Meta object literal key - Punctuation",
+      "scope": [
+        "source.js meta.object-literal.key.js punctuation.separator.key-value.js",
+        "source.js.jsx meta.object-literal.key.js.jsx punctuation.separator.key-value.js.jsx",
+        "source.ts meta.object-literal.key.ts punctuation.separator.key-value.ts",
+        "source.tsx meta.object-literal.key.tsx punctuation.separator.key-value.tsx"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "jsx attributes",
+      "scope": [
+        "entity.other.attribute-name",
+        "source.js entity.other.attribute-name.js",
+        "source.js.jsx entity.other.attribute-name.js"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "HTML / JSX - Assignments",
+      "scope": [
+        "meta.tag.attributes.js keyword.operator.assignment.js",
+        "meta.tag.attributes.js.jsx keyword.operator.assignment.js.jsx",
+        "meta.tag.attributes.tsx keyword.operator.assignment.tsx",
+        "meta.tag.any.html"
+      ],
+      "settings": {
+        "foreground": "#c9ccd8"
+      }
+    },
+    {
+      "name": "graphql",
+      "scope": [
+        "source.js entity.name.function.tagged-template.js",
+        "source.js.jsx entity.name.function.tagged-template.js.jsx",
+        "source.ts entity.name.function.tagged-template.ts",
+        "source.tsx entity.name.function.tagged-template.tsx"
+      ],
+      "settings": {
+        "foreground": "#A7A7EE"
+      }
+    },
+    {
+      "name": "graphql - functions",
+      "scope": [
+        "source.js entity.name.function.graphql",
+        "source.js.jsx entity.name.function.graphql",
+        "source.ts entity.name.function.graphql",
+        "source.tsx entity.name.function.graphql"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
+      }
+    },
+    {
+      "name": "graphql - types",
+      "scope": [
+        "source.js support.type.builtin.graphql",
+        "source.js.jsx support.type.builtin.graphql",
+        "source.ts support.type.builtin.graphql",
+        "source.tsx support.type.builtin.graphql"
+      ],
+      "settings": {
+        "foreground": "#8d9ad1"
+      }
+    },
+    {
+      "name": "graphql - variables",
+      "scope": [
+        "source.js meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
+        "source.js.jsx meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
+        "source.ts meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
+        "source.tsx meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql"
+      ],
+      "settings": {
+        "foreground": "#A7A7EE"
+      }
+    },
+    {
+      "name": "graphql - variable function",
+      "scope": [
+        "source.js meta.embedded.block.graphql meta.selectionset.graphql variable.graphql",
+        "source.js.jsx meta.embedded.block.graphql meta.selectionset.graphql variable.graphql",
+        "source.ts meta.embedded.block.graphql meta.selectionset.graphql variable.graphql",
+        "source.tsx meta.embedded.block.graphql meta.selectionset.graphql variable.graphql"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
       "name": "Flow Typedef",
       "scope": [
         "source.js meta.interface.js storage.type.interface.js",
@@ -554,7 +675,9 @@
         "constant.language.import-export-all.js",
         "constant.language.import-export-all.js.jsx",
         "keyword.operator.arithmetic.js",
-        "keyword.operator.arithmetic.js.jsx"
+        "keyword.operator.arithmetic.js.jsx",
+        "source.js entity.name.type.js",
+        "source.js.jsx entity.name.type.js.jsx"
       ],
       "settings": {
         "foreground": "#d7e2ff"
@@ -1186,7 +1309,7 @@
         "meta.tag.html"
       ],
       "settings": {
-        "foreground": "#7F7F7F"
+        "foreground": "#A7A7EE"
       }
     },
     {
