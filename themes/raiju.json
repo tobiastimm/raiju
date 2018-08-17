@@ -142,10 +142,14 @@
     {
       "name": "Constants",
       "scope": [
-        "source.js variable.other.constant.js",
-        "source.js.jsx variable.other.constant.js.jsx",
-        "source.ts variable.other.constant.ts",
-        "source.ts.tsx variable.other.constant.ts.tsx"
+        // "source.js variable.other.constant.js",
+        // "source.js.jsx variable.other.constant.js.jsx",
+        // "source.ts variable.other.constant.ts",
+        // "source.ts.tsx variable.other.constant.ts.tsx",
+        "meta.block.js variable.other.constant.property.js",
+        "meta.block.js.jsx variable.other.constant.property.js.jsx",
+        "meta.block.ts variable.other.constant.property.ts",
+        "meta.block.tsx variable.other.constant.property.tsx"
       ],
       "settings": {
         "foreground": "#ceb3f7"

@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.11.2
+
+- Fix for const theming in JS / TS
+
 ## 1.11.1
 
 - Add icon
