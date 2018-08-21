@@ -36,8 +36,8 @@
     "editorWidget.background": "#21252B",
     "gitDecoration.modifiedResourceForeground": "#7991be",
     "gitDecoration.addedResourceForgeround": "#99C794",
-    "gitDecoration.deletedResourceForeground": "#E15A60",
-    "gitDecoration.untrackedResourceForeground": "#6F7899",
+    "gitDecoration.deletedResourceForeground": "#6F7899",
+    "gitDecoration.untrackedResourceForeground": "#E15A60",
     "gitDecoration.conflictingResourceForeground": "#E15A60",
     "input.background": "#1c1f26",
     "input.border": "#314365",
@@ -108,12 +108,26 @@
     "editorGutter.modifiedBackground": "#7991be",
     "editorOverviewRuler.modifiedForeground": "#7991be",
     "editorOverviewRuler.addedForeground": "#99C794",
-    "editorOverviewRuler.deletedForeground": "#E15A60",
+    "editorOverviewRuler.deletedForeground": "#6F7899",
     "editorOverviewRuler.errorForeground": "#E15A60",
     "editorOverviewRuler.warningForeground": "#ffedcb",
-    "editorOverviewRuler.infoForeground": "#6f7899"
+    "editorOverviewRuler.infoForeground": "#6f7899",
+    "breadcrumb.foreground": "#d4d4d4",
+    "breadcrumb.focusForeground": "#dfe1e8",
+    "breadcrumb.activeSelectionForeground": "#8d9ad1",
+    "breadcrumbPicker.background": "#1c1f26"
   },
   "tokenColors": [
+    {
+      "name": "JSON Punctuation",
+      "scope": [
+        "punctuation.support.type.property-name.begin.json",
+        "punctuation.support.type.property-name.end.json"
+      ],
+      "settings": {
+        "foreground": "#d4d4d4ff"
+      }
+    },
     {
       "name": "Comments",
       "scope": ["comment", "punctuation.definition.comment"],
@@ -123,17 +137,45 @@
       }
     },
     {
+      "name": "Block & Braces",
+      "scope": [
+        "keyword.operator.type.annotation",
+        "meta.brace.round",
+        "punctuation",
+        "keyword.operator.ternary",
+        "meta.brace.curly.graphql",
+        "meta.brace.square"
+      ],
+      "settings": {
+        "foreground": "#817c98"
+      }
+    },
+    {
       "name": "Constants",
       "scope": [
-        "source.js variable.other.constant.js",
-        "source.js.jsx variable.other.constant.js.jsx",
-        "source.ts variable.other.constant.ts",
-        "source.ts.tsx variable.other.constant.ts.tsx"
+        "meta.block.js variable.other.constant.property.js",
+        "meta.block.js.jsx variable.other.constant.property.js.jsx",
+        "meta.block.ts variable.other.constant.property.ts",
+        "meta.block.tsx variable.other.constant.property.tsx"
       ],
       "settings": {
         "foreground": "#ceb3f7"
-        // "foreground": "#9497B8"
-        // "foreground": "#CEBBDB"
+      }
+    },
+    {
+      "name": "Decorator",
+      "scope": [
+        "punctuation.decorator.js",
+        "punctuation.decorator.js.jsx",
+        "punctuation.decorator.ts",
+        "punctuation.decorator.tsx",
+        "meta.decorator.js meta.function-call.js entity.name.function.js",
+        "meta.decorator.js.jsx meta.function-call.js.jsx entity.name.function.js.jsx",
+        "meta.decorator.ts meta.function-call.ts entity.name.function.ts",
+        "meta.decorator.tsx meta.function-call.tsx entity.name.function.tsx"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
       }
     },
     {
@@ -154,7 +196,11 @@
         "source.js meta.object-literal.key.js punctuation.separator.key-value.js",
         "source.js.jsx meta.object-literal.key.js.jsx punctuation.separator.key-value.js.jsx",
         "source.ts meta.object-literal.key.ts punctuation.separator.key-value.ts",
-        "source.tsx meta.object-literal.key.tsx punctuation.separator.key-value.tsx"
+        "source.tsx meta.object-literal.key.tsx punctuation.separator.key-value.tsx",
+        "source.js keyword.operator.ternary.js",
+        "source.js.jsx keyword.operator.ternary.js.jsx",
+        "source.ts keyword.operator.ternary.ts",
+        "source.tsx keyword.operator.ternary.tsx"
       ],
       "settings": {
         "foreground": "#ffedcb"
@@ -782,7 +828,11 @@
     },
     {
       "name": "JSON",
-      "scope": ["string.quoted.double.json"],
+      "scope": [
+        "string.quoted.double.json",
+        "punctuation.definition.string.begin.json",
+        "punctuation.definition.string.end.json"
+      ],
       "settings": {
         "foreground": "#8d9ad1"
       }
@@ -1344,7 +1394,12 @@
     },
     {
       "name": "String",
-      "scope": ["string.quoted", "string.interpolated", "string.template"],
+      "scope": [
+        "string.quoted",
+        "string.interpolated",
+        "string.template",
+        "punctuation.definition.string"
+      ],
       "settings": {
         "foreground": "#8d9ad1"
       }
@@ -1363,7 +1418,7 @@
         "variable.language.this"
       ],
       "settings": {
-        "foreground": "#A7A7EE"
+        "foreground": "#ceb3f7"
       }
     },
     {
@@ -1499,10 +1554,10 @@
         "keyword.operator.flowtype.other.js",
         "keyword.operator.flowtype.other.js.jsx",
         "source.shell keyword.operator",
-        "keyword.operator.ternary.js",
-        "keyword.operator.ternary.js.jsx",
-        "keyword.operator.ternary.ts",
-        "keyword.operator.ternary.tsx",
+        "source.js keyword.operator.ternary.js",
+        "source.js.jsx keyword.operator.ternary.js.jsx",
+        "source.ts keyword.operator.ternary.ts",
+        "source.tsx keyword.operator.ternary.tsx",
         "source.js meta.group.regexp keyword.operator",
         "source.js.jsx meta.group.regexp keyword.operator",
         "source.ts meta.group.regexp keyword.operator",

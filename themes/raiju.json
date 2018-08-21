@@ -36,8 +36,8 @@
     "editorWidget.background": "#21252B",
     "gitDecoration.modifiedResourceForeground": "#8d9ad1",
     "gitDecoration.addedResourceForgeround": "#99C794",
-    "gitDecoration.deletedResourceForeground": "#E15A60",
-    "gitDecoration.untrackedResourceForeground": "#6F7899",
+    "gitDecoration.deletedResourceForeground": "#6F7899",
+    "gitDecoration.untrackedResourceForeground": "#E15A60",
     "gitDecoration.conflictingResourceForeground": "#E15A60",
     "input.background": "#1c1f26",
     "input.border": "#343d64",
@@ -108,10 +108,14 @@
     "editorGutter.modifiedBackground": "#8d9ad1",
     "editorOverviewRuler.modifiedForeground": "#8d9ad1",
     "editorOverviewRuler.addedForeground": "#99C794",
-    "editorOverviewRuler.deletedForeground": "#E15A60",
+    "editorOverviewRuler.deletedForeground": "#6F7899",
     "editorOverviewRuler.errorForeground": "#E15A60",
     "editorOverviewRuler.warningForeground": "#ffedcb",
-    "editorOverviewRuler.infoForeground": "#6f7899"
+    "editorOverviewRuler.infoForeground": "#6f7899",
+    "breadcrumb.foreground": "#d4d4d4",
+    "breadcrumb.focusForeground": "#dfe1e8",
+    "breadcrumb.activeSelectionForeground": "#8d9ad1",
+    "breadcrumbPicker.background": "#1c1f26"
   },
   "tokenColors": [
     {

@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.11.3
+
+- Breadcrumb support
+- Small fixes for `dark` variant
+
 ## 1.11.2
 
 - Fix for const theming in JS / TS
