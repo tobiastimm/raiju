@@ -81,7 +81,7 @@
     "editorGroupHeader.tabsBackground": "#1c1f26",
     "editorGroup.dropBackground": "#1c1f26",
     "tab.border": "#1c1f26",
-    "tab.activeBackground": "#2b303b",
+    "tab.activeBackground": "#2a2d37",
     "tab.inactiveBackground": "#1c1f26",
     "titleBar.inactiveBackground": "#1c1f26",
     "titleBar.activeBackground": "#1c1f26",
@@ -375,7 +375,9 @@
         "source.js meta.interface.js meta.field.declaration.js meta.type.annotation.js support.type.builtin.js",
         "source.js.jsx meta.interface.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.builtin.js.jsx",
         "source.js meta.type.declaration.js meta.object.type.js meta.field.declaration.js meta.type.annotation.js support.type.builtin.js",
-        "source.js.jsx meta.type.declaration.js.jsx meta.object.type.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.builtin.js.jsx"
+        "source.js.jsx meta.type.declaration.js.jsx meta.object.type.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.builtin.js.jsx",
+        "support.type.primitive.js",
+        "support.type.primitive.js.jsx"
       ],
       "settings": {
         "foreground": "#ceb3f7"
@@ -440,7 +442,9 @@
         "source.ts meta.class.ts meta.type.annotation.ts support.type.primitive.ts",
         "source.tsx meta.class.tsx meta.type.annotation.tsx support.type.primitive.tsx",
         "source.ts meta.interface.ts meta.field.declaration.ts meta.type.annotation.ts support.type.builtin.ts",
-        "source.tsx meta.interface.tsx meta.field.declaration.tsx meta.type.annotation.tsx support.type.builtin.tsx"
+        "source.tsx meta.interface.tsx meta.field.declaration.tsx meta.type.annotation.tsx support.type.builtin.tsx",
+        "support.type.primitive.ts",
+        "support.type.primitive.tsx"
       ],
       "settings": {
         "foreground": "#ceb3f7"
@@ -643,7 +647,8 @@
       "name": "Java Typedef - Object",
       "scope": [
         "source.java storage.type.java",
-        "source.java storage.type.object"
+        "source.java storage.type.object",
+        "source.java entity.other.inherited-class.java"
       ],
       "settings": {
         "foreground": "#d7e2ff"
@@ -658,7 +663,11 @@
     },
     {
       "name": "Keyword - Java",
-      "scope": ["source.java keyword", "storage.modifier.java"],
+      "scope": [
+        "source.java keyword",
+        "storage.modifier.java",
+        "storage.modifier.extends.java"
+      ],
       "settings": {
         "foreground": "#8d9ad1",
         "fontStyle": "italic"
@@ -764,7 +773,13 @@
         "constant.language.import-export-all.js",
         "constant.language.import-export-all.js.jsx",
         "keyword.operator.arithmetic.js",
-        "keyword.operator.arithmetic.js.jsx"
+        "keyword.operator.arithmetic.js.jsx",
+        "source.js entity.name.type.js",
+        "source.js.jsx entity.name.type.js.jsx",
+        "source.js entity.other.inherited-class.js",
+        "source.js.jsx entity.other.inherited-class.js.jsx",
+        "source.js meta.class entity.name.type.module.js",
+        "source.js.jsx meta.class entity.name.type.module.js.jsx"
       ],
       "settings": {
         "foreground": "#d7e2ff"
@@ -807,7 +822,11 @@
         "constant.language.import-export-all.ts",
         "constant.language.import-export-all.tsx",
         "meta.var.expr.ts new.expr.ts entity.name.type.ts",
-        "meta.var.expr.tsx new.expr.tsx entity.name.type.tsx"
+        "meta.var.expr.tsx new.expr.tsx entity.name.type.tsx",
+        "source.ts entity.other.inherited-class.ts",
+        "source.tsx entity.other.inherited-class.tsx",
+        "source.ts meta.class entity.name.type.module.ts",
+        "source.tsx meta.class entity.name.type.module.tsx"
       ],
       "settings": {
         "foreground": "#d7e2ff"
@@ -1101,7 +1120,9 @@
         "source.js meta.interface.js entity.name.type.interface.js",
         "source.js.jsx meta.interface.js.jsx entity.name.type.interface.js.jsx",
         "source.js meta.type.declaration.js entity.name.type.js",
-        "source.js.jsx meta.type.declaration.js.jsx entity.name.type.js.jsx"
+        "source.js.jsx meta.type.declaration.js.jsx entity.name.type.js.jsx",
+        "source.js entity.name.type.alias.js",
+        "source.js.jsx entity.name.type.alias.js.jsx"
       ],
       "settings": {
         "foreground": "#ffedcb"
@@ -1130,7 +1151,9 @@
         "source.ts meta.interface.ts entity.name.type.interface.ts",
         "source.tsx meta.interface.tsx entity.name.type.interface.tsx",
         "source.ts meta.type.declaration.ts entity.name.type.ts",
-        "source.tsx meta.type.declaration.tsx entity.name.type.tsx"
+        "source.tsx meta.type.declaration.tsx entity.name.type.tsx",
+        "source.ts entity.name.type.alias.ts",
+        "source.tsx entity.name.type.alias.tsx"
       ],
       "settings": {
         "foreground": "#ffedcb"

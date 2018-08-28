@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.11.4
+
+- Small improvements for TypeScript, Flow
+
 ## 1.11.3
 
 - Breadcrumb support
