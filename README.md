@@ -25,6 +25,8 @@ At the moment only `raijū` will receive new updates. The variants `dark` and `s
 
 ### Subliminal
 
+Please use [**SubliminalR**](https://marketplace.visualstudio.com/items?itemName=TobiasTimm.subliminalr) instead. The theme will be removed with the next release
+
 ![Subliminal](screenshot-subliminal.png)
 
 ## Usage
