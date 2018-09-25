@@ -129,6 +129,48 @@
       }
     },
     {
+      "name": "Reason - Keyword",
+      "scope": ["source.reason keyword", "source.reason storage.type"],
+      "settings": {
+        "foreground": "#8d9ad1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Reason - Control",
+      "scope": ["source.reason keyword.control.switch"],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Reason - Operator",
+      "scope": [
+        "source.reason keyword.control.less",
+        "source.reason keyword.operator keyword.control"
+      ],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Reason - Class",
+      "scope": ["source.reason support.class entity.name.class"],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Reason - Call",
+      "scope": ["source.reason support.property-value entity.name.filename"],
+      "settings": {
+        "foreground": "#d7e2ff"
+      }
+    },
+    {
       "name": "Block & Braces",
       "scope": [
         "keyword.operator.type.annotation",
@@ -271,6 +313,14 @@
       }
     },
     {
+      "name": "graphql - keyword",
+      "scope": ["source.graphql keyword"],
+      "settings": {
+        "foreground": "#8d9ad1",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "graphql - types",
       "scope": [
         "source.js support.type.builtin.graphql",
@@ -282,6 +332,27 @@
       ],
       "settings": {
         "foreground": "#8d9ad1"
+      }
+    },
+    {
+      "name": "graphql - Object Types",
+      "scope": [
+        "source.graphql meta.type.interface.graphql support.type.graphql",
+        "keyword.operator.nulltype.graphql",
+        "punctuation.assignment.graphql"
+      ],
+      "settings": {
+        "foreground": "#ffedcb",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "graphql - Object Types",
+      "scope": [
+        "source.graphql meta.type.interface.graphql meta.type.object.graphql support.type.graphql"
+      ],
+      "settings": {
+        "foreground": "#d7e2ff"
       }
     },
     {
@@ -541,6 +612,8 @@
         "source.js meta.group.braces.curly.js keyword.other.substitution",
         "source.js.jsx meta.group.braces.curly.js.jsx keyword.other.substitution",
         "keyword.operator",
+        "storage.modifier.async.js",
+        "storage.modifier.async.js.jsx",
         "source.js meta.class.js meta.method.declaration.js storage.type.property.js",
         "source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx storage.type.property.js.jsx",
         "source.js meta.class.js meta.method.declaration.js storage.modifier.async.js",
@@ -1459,6 +1532,7 @@
     {
       "name": "String",
       "scope": [
+        "string.double",
         "string.quoted",
         "string.interpolated",
         "string.template",

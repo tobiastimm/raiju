@@ -7,27 +7,11 @@
 
 See the [CHANGELOG](CHANGELOG.md) for the latest changes.
 
+> Subliminal was removed!. Please use [**SubliminalR**](https://marketplace.visualstudio.com/items?itemName=TobiasTimm.subliminalr) instead.
+
 ![Screenshot](screenshot.png)
 
 _Icon theme: [ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), Font: [Dank Mono](https://dank.sh)_
-
-## Variants
-
-At the moment only `raijū` will receive new updates. The variants `dark` and `subliminal` will be separated into their own repositories soon.
-
-### Dark
-
-![Dark](screenshot-dark.png)
-
-### Slime
-
-![Slime](screenshot-slime.png)
-
-### Subliminal
-
-Please use [**SubliminalR**](https://marketplace.visualstudio.com/items?itemName=TobiasTimm.subliminalr) instead. The theme will be removed with the next release
-
-![Subliminal](screenshot-subliminal.png)
 
 ## Usage
 

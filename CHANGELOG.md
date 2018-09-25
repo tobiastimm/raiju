@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.11.5
+
+- Subliminal was removed!. Please use [**SubliminalR**](https://marketplace.visualstudio.com/items?itemName=TobiasTimm.subliminalr) instead.
+
 ## 1.11.4
 
 - Small improvements for TypeScript, Flow
