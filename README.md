@@ -26,10 +26,6 @@ Select the theme and you are ready to go!
 1.  File > Preferences > Color Theme > Raijū
 1.  Optional: Use the settings below for a better and more minimalistic experience
 
-## Syntax Highlighting
-
-For better Syntax Highlighting use [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode).
-
 ## Minimalistic Look & Feel
 
 I personally prefer a more minimalistic look. My settings are
