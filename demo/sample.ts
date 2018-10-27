@@ -30,6 +30,11 @@ while (true) {}
 
 do {} while (true);
 
+
+
+
+
+
 const bla = true === "bla" ? "blub" : "foo";
 
 const bla = new Test();

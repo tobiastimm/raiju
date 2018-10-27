@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.11.6
+
+- Small color changes for .json, .graphql
+
 ## 1.11.5
 
 - Subliminal was removed!. Please use [**SubliminalR**](https://marketplace.visualstudio.com/items?itemName=TobiasTimm.subliminalr) instead.

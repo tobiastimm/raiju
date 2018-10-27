@@ -45,7 +45,7 @@
     "peekViewEditor.matchHighlightBackground": "#29244b",
     "sideBarSectionHeader.background": "#1c1f26",
     "statusBar.background": "#1c1f26",
-    "statusBar.foreground": "#9da5b4",
+    "statusBar.foreground": "#64727f",
     "statusBarItem.hoverBackground": "#2c313a",
     "statusBar.noFolderBackground": "#21252B",
     "statusBar.debuggingBackground": "#0E4FFF",
@@ -178,20 +178,17 @@
         "punctuation",
         "keyword.operator.ternary",
         "meta.brace.curly.graphql",
-        "meta.brace.square"
+        "meta.brace.square",
+        "punctuation.support.type.property-name.begin.json",
+        "punctuation.support.type.property-name.end.json"
       ],
       "settings": {
-        // "foreground": "#6c6783"
         "foreground": "#817c98"
       }
     },
     {
       "name": "Constants",
       "scope": [
-        // "source.js variable.other.constant.js",
-        // "source.js.jsx variable.other.constant.js.jsx",
-        // "source.ts variable.other.constant.ts",
-        // "source.ts.tsx variable.other.constant.ts.tsx",
         "meta.block.js variable.other.constant.property.js",
         "meta.block.js.jsx variable.other.constant.property.js.jsx",
         "meta.block.ts variable.other.constant.property.ts",
@@ -339,7 +336,8 @@
       "scope": [
         "source.graphql meta.type.interface.graphql support.type.graphql",
         "keyword.operator.nulltype.graphql",
-        "punctuation.assignment.graphql"
+        "punctuation.assignment.graphql",
+        "support.type.graphql"
       ],
       "settings": {
         "foreground": "#ffedcb",
@@ -392,7 +390,7 @@
         "meta.selectionset.graphql meta.selectionset.graphql variable.graphql"
       ],
       "settings": {
-        "foreground": "#d7e2ff"
+        "foreground": ""
       }
     },
     {
@@ -1663,7 +1661,8 @@
         "keyword.control.switch",
         "this",
         "support.type.builtin",
-        "variable.language.this.php"
+        "variable.language.this.php",
+        "variable.language.this"
       ],
       "settings": {
         "fontStyle": "italic"
