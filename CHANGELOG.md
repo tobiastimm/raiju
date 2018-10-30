@@ -3,6 +3,7 @@
 ## 1.11.6
 
 - Small color changes for .json, .graphql
+- Revert color for object literal key
 
 ## 1.11.5
 

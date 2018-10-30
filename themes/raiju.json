@@ -227,7 +227,7 @@
         "source.tsx variable.object.property.tsx"
       ],
       "settings": {
-        "foreground": "#d7e2ff"
+        // "foreground": "#d7e2ff"
       }
     },
     {
