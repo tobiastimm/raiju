@@ -43,6 +43,11 @@
         "label": "Raijū - Slime",
         "uiTheme": "vs-dark",
         "path": "./themes/raiju-slime.json"
+      },
+      {
+        "label": "Raijū - Babel",
+        "uiTheme": "vs-dark",
+        "path": "./themes/raiju-babel.json"
       }
     ]
   }

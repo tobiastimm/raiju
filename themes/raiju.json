@@ -535,10 +535,23 @@
         "source.ts meta.type.declaration.ts meta.type.parameters.ts entity.name.type.ts",
         "source.tsx meta.type.declaration.tsx meta.type.parameters.tsx entity.name.type.tsx",
         "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts",
-        "source.tsx meta.class.tsx meta.method.declaration.tsx meta.parameters.tsx meta.type.annotation.tsx entity.name.type.tsx"
+        "source.tsx meta.class.tsx meta.method.declaration.tsx meta.parameters.tsx meta.type.annotation.tsx entity.name.type.tsx",
+        "source.ts meta.class.ts meta.method.declaration.ts meta.return.type.ts entity.name.type.ts",
+        "source.tsx meta.class.tsx meta.method.declaration.tsx meta.return.type.tsx entity.name.type.tsx",
+        "meta.parameters.ts meta.type.annotation.ts entity.name.type.ts",
+        "meta.parameters.tsx meta.type.annotation.tsx entity.name.type.tsx"
       ],
       "settings": {
         "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "scope": [
+        "source.ts meta.class.ts meta.method.declaration.ts meta.return.type.ts meta.type.parameters.ts entity.name.type.ts",
+        "source.tsx meta.class.tsx meta.method.declaration.tsx meta.return.type.tsx meta.type.parameters.tsx entity.name.type.tsx"
+      ],
+      "settings": {
+        "foreground": "#ffedcb"
       }
     },
     {
