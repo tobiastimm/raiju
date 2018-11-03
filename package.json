@@ -35,19 +35,9 @@
         "path": "./themes/raiju.json"
       },
       {
-        "label": "Raijū - Dark",
+        "label": "Raijū - Next",
         "uiTheme": "vs-dark",
-        "path": "./themes/raiju-dark.json"
-      },
-      {
-        "label": "Raijū - Slime",
-        "uiTheme": "vs-dark",
-        "path": "./themes/raiju-slime.json"
-      },
-      {
-        "label": "Raijū - Babel",
-        "uiTheme": "vs-dark",
-        "path": "./themes/raiju-babel.json"
+        "path": "./themes/raiju-next.json"
       }
     ]
   }
