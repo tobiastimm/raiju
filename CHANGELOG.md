@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.12.0
+
+- New preview theme `next` for testinng
+- Removed `dark` and `slime` from selection
+
 ## 1.11.6
 
 - Small color changes for .json, .graphql
