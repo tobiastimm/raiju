@@ -72,9 +72,9 @@ Let me know, if you'd like to see any specific synytax added by creating a [Gith
 
 ## My other themes
 
-- [**SubliminalR**](https://tobiastimm.github.io/subliminalr/)
-- [**Sceanic**](https://tobiastimm.github.io/sceanic/)
-- [**Duotoned**](https://tobiastimm.github.io/duotoned/)
+- [**SubliminalR**](https://github.com/tobiastimm/subliminalr/)
+- [**Sceanic**](https://github.com/tobiastimm/sceanic/)
+- [**Duotoned**](https://github.com/tobiastimm/duotoned/)
 
 ## Credits
 
