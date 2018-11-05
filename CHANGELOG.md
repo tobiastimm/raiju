@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.12.2
+
+- Add some more purple
+
 ## 1.12.1
 
 - New purple color in `next`

@@ -568,7 +568,7 @@
     {
       "scope": ["entity.other.attribute-name.class.css"],
       "settings": {
-        "foreground": "#cbb1f3"
+        "foreground": "#a188f1"
       }
     },
     {
