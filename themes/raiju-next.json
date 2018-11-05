@@ -284,6 +284,18 @@
       }
     },
     {
+      "scope": ["storage.type.java", "storage.type.object.array.java"],
+      "settings": {
+        "foreground": "#a188f1"
+      }
+    },
+    {
+      "scope": ["storage.type.primitive"],
+      "settings": {
+        "foreground": "#ceb3f7"
+      }
+    },
+    {
       "scope": [
         "storage.type.function.arrow",
         "keyword.operator.type.annotation",
@@ -302,6 +314,9 @@
       "scope": [
         "entity.name",
         "entity.name.type.class",
+        "entity.name.type.interface",
+        "entity.name.type.enum",
+        "entity.name.type.alias",
         "meta.type.interface.graphql support.type.graphql",
         "meta.enum.graphql support.type.enum.graphql"
       ],
@@ -310,9 +325,18 @@
       }
     },
     {
-      "scope": ["entity.name.function", "entity.name.type"],
+      "scope": [
+        "entity.name.function",
+        "meta.type.parameters entity.name.type"
+      ],
       "settings": {
         "foreground": "#d7e2ff"
+      }
+    },
+    {
+      "scope": ["entity.name.type"],
+      "settings": {
+        "foreground": "#a188f1"
       }
     },
     {
@@ -583,8 +607,6 @@
         "meta.type.declaration meta.object.type meta.method.declaration meta.definition.method entity.name.function",
         "meta.interface meta.field.declaration meta.definition.property entity.name.function",
         "meta.type.declaration meta.object.type meta.field.declaration meta.definition.property entity.name.function",
-        "entity.name.type.alias",
-        "entity.name.type.interface",
         "storage.modifier.import"
       ],
       "settings": {
@@ -730,7 +752,8 @@
         "keyword.operator.ternary.js",
         "keyword.operator.ternary.js.jsx",
         "keyword.operator.ternary.ts",
-        "keyword.operator.ternary.tsx"
+        "keyword.operator.ternary.tsx",
+        "keyword.control.java"
       ],
       "settings": {
         "foreground": "#ffedcb"
@@ -870,8 +893,6 @@
         "punctuation.definition.comment",
         "constant.language",
         "variable.language",
-        "storage.type",
-        "storage.type.type",
         "entity.other.attribute-name",
         "support.macro",
         "support.constant",
@@ -879,7 +900,9 @@
         "storage.modifier.async",
         "storage.modifier",
         "meta.class.identifier storage.modifier",
-        "keyword.operator.expression"
+        "keyword.operator.expression",
+        "storage.type",
+        "storage.type.type"
       ],
       "settings": {
         "fontStyle": "italic"
@@ -936,7 +959,9 @@
         "storage.modifier.import.java",
         "meta.variables.graphql meta.type.list.graphql support.type.graphql",
         "entity.other.attribute-name.class",
-        "entity.other.attribute-name.id"
+        "entity.other.attribute-name.id",
+        "storage.type.cs",
+        "storage.type.type.cs"
       ],
       "settings": {
         "fontStyle": "normal"
