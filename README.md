@@ -72,6 +72,7 @@ Let me know, if you'd like to see any specific synytax added by creating a [Gith
 
 ## My other themes
 
+- [**Raijū - Terminal**](https://github.com/tobiastimm/raiju-terminal/)
 - [**SubliminalR**](https://github.com/tobiastimm/subliminalr/)
 - [**Sceanic**](https://github.com/tobiastimm/sceanic/)
 - [**Duotoned**](https://github.com/tobiastimm/duotoned/)
