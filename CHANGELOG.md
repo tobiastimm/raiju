@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.12.1
+
+- New purple color in `next`
+
 ## 1.12.0
 
 - New preview theme `next` for testinng

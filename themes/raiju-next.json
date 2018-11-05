@@ -240,7 +240,7 @@
     {
       "scope": ["variable.language"],
       "settings": {
-        "foreground": "#cbb1f3"
+        "foreground": "#a188f1"
       }
     },
     {
@@ -335,10 +335,13 @@
       }
     },
     {
-      "scope": ["entity.name.tag support.class.component"],
+      "scope": [
+        "entity.name.tag support.class.component",
+        "meta.tag.custom entity.name.tag"
+      ],
       "settings": {
         // "foreground": "#99a7e2"
-        "foreground": "#A7A7EE"
+        "foreground": "#a188f1"
       }
     },
     {
@@ -396,7 +399,7 @@
     {
       "scope": ["support.class"],
       "settings": {
-        "foreground": "#8d9ad1"
+        "foreground": "#a188f1"
       }
     },
     {
