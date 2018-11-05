@@ -34,6 +34,32 @@ Select the theme and you are ready to go!
 1.  File > Preferences > Color Theme > Raijū
 1.  Optional: Use the settings below for a better and more minimalistic experience
 
+## Supported Languages
+
+The following languages & frameworks are supported by the `Classic` variant
+
+- JavaScript
+  - React
+  - AngularJS
+- TypeScript / Flow
+- ReasonML
+- Java
+- C#
+- JSON
+- HTML
+- CSS
+  - SCSS
+  - LESS
+  - Stylus
+- XML
+- YML
+- PHP
+- Markdown
+
+> Currently not all languages/frameworks are supported by the `next` theme.
+>
+> If one specific language / framework is missing, feel free to open a [Github issue](https://github.com/tobiastimm/raiju/issues)
+
 ## Feedback / Issues
 
 Do you like the theme? Don't hesitate to share your thoughts!
@@ -43,6 +69,12 @@ Let me know, if you'd like to see any specific synytax added by creating a [Gith
 ## Author
 
 [Tobias Timm](https://twitter.com/TbsTimm)
+
+## Other themes
+
+- [**SubliminalR**](https://tobiastimm.github.io/subliminalr/)
+- [**Sceanic**](https://tobiastimm.github.io/sceanic/)
+- [**Duotoned**](https://tobiastimm.github.io/duotoned/)
 
 ## License
 
