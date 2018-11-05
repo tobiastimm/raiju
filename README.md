@@ -13,13 +13,13 @@
 
 ![Screenshot](screenshot.png)
 
-_Icon theme: [Material Theme Icons Ocean](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), Font: [Dank Mono](https://dank.sh)_
+_Icon theme: [Material Theme Icons Ocean](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme), Font: [Dank Mono](https://dank.sh)_
 
 ### Next (currently in Preview)
 
 ![Screenshot Next](screenshot-next.png)
 
-_Icon theme: [Material Theme Icons Ocean](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu), Font: [Dank Mono](https://dank.sh)_
+_Icon theme: [Material Theme Icons Ocean](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme), Font: [Dank Mono](https://dank.sh)_
 
 ## Usage
 
@@ -70,12 +70,17 @@ Let me know, if you'd like to see any specific synytax added by creating a [Gith
 
 [Tobias Timm](https://twitter.com/TbsTimm)
 
-## Other themes
+## My other themes
 
 - [**SubliminalR**](https://tobiastimm.github.io/subliminalr/)
 - [**Sceanic**](https://tobiastimm.github.io/sceanic/)
 - [**Duotoned**](https://tobiastimm.github.io/duotoned/)
 
+## Credits
+
+- [**Ariake Dark**](https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark)
+- [**Subliminal**](https://marketplace.visualstudio.com/items?itemName=gaearon.subliminal)
+
 ## License
 
-MIT
+[MIT](./LICENSE)
