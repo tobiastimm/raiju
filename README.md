@@ -1,7 +1,13 @@
-# Raijū
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/tobiastimm/raiju/master/icon.png" width="160">
+
+# Raijū - 雷獣
 
 [![Version](https://img.shields.io/vscode-marketplace/v/TobiasTimm.raiju.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=TobiasTimm.raiju)
 [![Downloads](https://img.shields.io/vscode-marketplace/d/TobiasTimm.raiju.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=TobiasTimm.raiju)
+
+</div>
 
 [**Raijū**](https://tobiastimm.github.io/raiju/) is a Visual Studio Code theme inspired by [Ariake Dark](https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark) and [Subliminal](https://marketplace.visualstudio.com/items?itemName=gaearon.subliminal).
 
