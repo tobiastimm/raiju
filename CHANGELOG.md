@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.12.3
+
+- New icon
+
 ## 1.12.2
 
 - Add some more purple
