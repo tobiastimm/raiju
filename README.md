@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/tobiastimm/raiju/master/icon.png" width="160">
+<img src="https://raw.githubusercontent.com/tobiastimm/raiju/master/icon.png" width="256">
 
 # Raijū - 雷獣
 
