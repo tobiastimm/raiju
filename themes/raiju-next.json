@@ -52,7 +52,7 @@
     "statusBar.noFolderBackground": "#171d2b",
     "statusBar.debuggingBackground": "#8d9ad1",
     "statusBar.debuggingBorder": "#1b2432",
-    "statusBar.debuggingForeground": "#ffffff",
+    "statusBar.debuggingForeground": "#d4d4d4",
     "titleBar.activeForeground": "#9da5b4",
     "titleBar.inactiveForeground": "#6B717D",
     "dropdown.border": "#262b3b",
@@ -961,7 +961,8 @@
         "entity.other.attribute-name.class",
         "entity.other.attribute-name.id",
         "storage.type.cs",
-        "storage.type.type.cs"
+        "storage.type.type.cs",
+        "punctuation.definition.entity"
       ],
       "settings": {
         "fontStyle": "normal"
