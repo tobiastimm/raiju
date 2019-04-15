@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.0.0
+
+- Release of `next`
+- Renaming `Raiju` to `Raiju - Classic`
+- Lighten foreground of sidebar for more readability
+
 ## 1.12.3
 
 - New icon

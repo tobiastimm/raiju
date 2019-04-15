@@ -17,13 +17,13 @@
 
 ### Classic
 
-![Screenshot](screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/tobiastimm/raiju/master/screenshot.png)
 
 _Icon theme: [Material Theme Icons Ocean](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme), Font: [Dank Mono](https://dank.sh)_
 
-### Next (currently in Preview)
+### Standard
 
-![Screenshot Next](screenshot-next.png)
+![Screenshot Standard](https://raw.githubusercontent.com/tobiastimm/raiju/master/screenshot-next.png)
 
 _Icon theme: [Material Theme Icons Ocean](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme), Font: [Dank Mono](https://dank.sh)_
 

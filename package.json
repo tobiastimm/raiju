@@ -30,15 +30,20 @@
   "contributes": {
     "themes": [
       {
+        "label": "Raijū - Classic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/raiju-classic.json"
+      },
+      {
         "label": "Raijū",
         "uiTheme": "vs-dark",
         "path": "./themes/raiju.json"
-      },
-      {
-        "label": "Raijū - Next",
-        "uiTheme": "vs-dark",
-        "path": "./themes/raiju-next.json"
       }
     ]
+  },
+  "__metadata": {
+    "id": "164a680e-c8b0-4902-9321-dfd1888bf543",
+    "publisherDisplayName": "Tobias Timm",
+    "publisherId": "5e0244e1-b94f-4e44-8cdc-1397334a044f"
   }
 }
