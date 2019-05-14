@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.0.1
+
+- Fix background-color in diff view (#18)
+
 ## 2.0.0
 
 - Release of `next`
