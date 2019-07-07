@@ -115,7 +115,9 @@
     "breadcrumb.foreground": "#d4d4d4",
     "breadcrumb.focusForeground": "#dfe1e8",
     "breadcrumb.activeSelectionForeground": "#8d9ad1",
-    "breadcrumbPicker.background": "#1c1f26"
+    "breadcrumbPicker.background": "#1c1f26",
+    "editorWarning.foreground": "#ffedcb",
+    "listWarning.foreground": "#ffedcb"
   },
   "tokenColors": [
     {

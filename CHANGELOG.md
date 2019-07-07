@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.0.5
+
+- added new warning colors
+
 ## 2.0.1
 
 - Fix background-color in diff view (#18)
