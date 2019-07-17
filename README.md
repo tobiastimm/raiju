@@ -27,6 +27,10 @@ _Icon theme: [Material Theme Icons Ocean](https://marketplace.visualstudio.com/i
 
 _Icon theme: [Material Theme Icons Ocean](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme), Font: [Dank Mono](https://dank.sh)_
 
+### Dark
+
+Screenshot coming soon!
+
 ## Usage
 
 Select the theme and you are ready to go!
@@ -38,7 +42,6 @@ Select the theme and you are ready to go!
 1.  Click Install
 1.  Click Reload
 1.  File > Preferences > Color Theme > Raijū
-1.  Optional: Use the settings below for a better and more minimalistic experience
 
 ## Supported Languages
 

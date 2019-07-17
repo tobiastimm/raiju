@@ -38,6 +38,11 @@
         "label": "Raijū",
         "uiTheme": "vs-dark",
         "path": "./themes/raiju.json"
+      },
+      {
+        "label": "Raijū - Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/raiju-dark.json"
       }
     ]
   },

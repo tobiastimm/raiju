@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.1.0
+
+- add darker variant
+
 ## 2.0.5
 
 - added new warning colors
