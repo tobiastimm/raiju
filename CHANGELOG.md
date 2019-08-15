@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.2.0
+
+- No italics variant
+
 ## 2.1.1
 
 - fix panel background color
