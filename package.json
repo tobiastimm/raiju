@@ -45,6 +45,11 @@
         "path": "./themes/raiju-noitalic.json"
       },
       {
+        "label": "Raijū - Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/raiju-dark.json"
+      },
+      {
         "label": "Raijū - Dark (No italics)",
         "uiTheme": "vs-dark",
         "path": "./themes/raiju-dark-noitalic.json"
