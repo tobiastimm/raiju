@@ -63,11 +63,12 @@ export default class AdminArtists extends Component {
 
   render = () => {
     console.log(this.props.artists);
-    return
-    <div>
+    return (
       <div>
-        <MissionIcon />
+        <div>
+          <MissionIcon />
+        </div>
       </div>
-    </div>;
+    )
   }
 }

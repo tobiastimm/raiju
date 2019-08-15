@@ -1549,7 +1549,8 @@
         "string.quoted",
         "string.interpolated",
         "string.template",
-        "punctuation.definition.string"
+        "punctuation.definition.string",
+        "markup.inline.raw.string"
       ],
       "settings": {
         "foreground": "#ceb3f7"

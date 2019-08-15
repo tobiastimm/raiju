@@ -29,7 +29,9 @@ _Icon theme: [Material Theme Icons Ocean](https://marketplace.visualstudio.com/i
 
 ### Dark
 
-Screenshot coming soon!
+![Screenshot Dark](https://raw.githubusercontent.com/tobiastimm/raiju/master/screenshot-dark.png)
+
+_Icon theme: [Material Theme Icons Ocean](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme), Font: [Dank Mono](https://dank.sh)_
 
 ## Usage
 
