@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.2.1
+
+- Fix variable scoping colors
+
 ## 2.2.0
 
 - No italics variant

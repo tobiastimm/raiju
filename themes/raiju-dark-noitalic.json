@@ -57,7 +57,7 @@
     "titleBar.inactiveForeground": "#6B717D",
     "dropdown.border": "#171D2B",
     "editor.background": "#171D2B",
-    "editor.foreground": "#d4d4d4",
+    "editor.foreground": "#e6e6e6",
     "editorCursor.foreground": "#b6bcc4",
     "editorGroupHeader.tabsBorder": "#171D2B",
     "editorGutter.background": "#171D2B",
@@ -310,6 +310,12 @@
       ],
       "settings": {
         "foreground": "#ffedcb"
+      }
+    },
+    {
+      "scope": ["entity.name.variable"],
+      "settings": {
+        "foreground": "#e6e6e6"
       }
     },
     {

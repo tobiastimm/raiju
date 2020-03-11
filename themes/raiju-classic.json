@@ -1058,6 +1058,12 @@
       }
     },
     {
+      "scope": ["entity.name.variable"],
+      "settings": {
+        "foreground": "#d4d4d4"
+      }
+    },
+    {
       "name": "SCSS/Styl - Functions",
       "scope": [
         "source.css.scss entity.name.function",
